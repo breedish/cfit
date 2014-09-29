@@ -1,0 +1,2407 @@
+http://shared-crx-005.1515.mtvi.com:12042/udat/gametrailers.com?&q=%7B%22select%22%3A%7B%22Description%22%3A1%2C%22EditorialRating%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22ESRBCertificate%22%3A1%2C%22Genres%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22Images%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%7D%7D%7D%7D%7D%7D%7D%2C%22Keywords%22%3A1%2C%22Language%22%3A1%2C%22mtvi%3AcontentType%22%3A1%2C%22mtvi%3Aexternal%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22mtvi%3Aid%22%3A1%2C%22mtvi%3AshortId%22%3A1%2C%22mtvi%3AurlKey%22%3A1%2C%22OriginalPublishDate%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22People%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%7D%7D%7D%7D%7D%7D%2C%22PhotoGalleries%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22Pigeonholes%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22Ratings%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%7D%7D%7D%7D%7D%7D%7D%7D%7D%2C%22SEODescription%22%3A1%2C%22SEOKeywords%22%3A1%2C%22SEOLinks%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%7D%2C%22SEOTitle%22%3A1%2C%22ShortDescription%22%3A1%2C%22ShortTitle%22%3A1%2C%22SortTitle%22%3A1%2C%22SysRefs%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22Tags%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%7D%7D%2C%22Title%22%3A1%2C%22Version%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22VideoGame%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22VideoGameReleases%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22Videos%22%3A%7B%22%2A%22%3A%7B%22%2A%22%3A1%7D%7D%2C%22Website%22%3A1%2C%22%2A%22%3A1%7D%2C%22vars%22%3A%7B%7D%2C%22where%22%3A%7B%22byId%22%3A%5B%22e5e2219e-cdf1-4ba5-a320-b3be16c6b60e%22%5D%7D%2C%22start%22%3A0%2C%22rows%22%3A1%2C%22omitNumFound%22%3Atrue%2C%22debug%22%3A%7B%20%20%7D%7D&stage=authoring&filterSchedules=true&dateFormat=UTC&indent=true&plugin.timeTravel=2012-04-04T04:00:00.000Z&timeTravel=2012-04-04T04:00:00.000Z
+{
+  "response" : {
+    "start" : 0,
+    "docs" : [ {
+      "mtvi:id" : "e5e2219e-cdf1-4ba5-a320-b3be16c6b60e",
+      "mtvi:shortId" : "0ag6xk",
+      "mtvi:urlKey" : "e5e2219e-cdf1-4ba5-a320-b3be16c6b60e",
+      "mtvi:namespace" : "gametrailers",
+      "mtvi:created" : {
+        "$date" : "2011-07-21T14:50:07.640Z"
+      },
+      "mtvi:updated" : {
+        "$date" : "2012-05-14T02:36:02.987Z"
+      },
+      "mtvi:contentType" : "Standard:VideoGame",
+      "Description" : "Get behind the cowl and immerse yourself in a Batman game like no other as you make your way through the maze-like Arkham Asylum while hot on the heels of the diabolical Joker.",
+      "DistPolicies" : [ {
+        "$oid" : "118d5349-ab6a-4b20-bc98-ecaafbe1b252"
+      } ],
+      "Genres" : [ {
+        "mtvi:id" : "ad390f5c-dfa3-4739-bb63-aa5a7c4840f4",
+        "mtvi:shortId" : "xs8qy7",
+        "mtvi:urlKey" : "ad390f5c-dfa3-4739-bb63-aa5a7c4840f4",
+        "mtvi:namespace" : "authorities",
+        "mtvi:created" : {
+          "$date" : "2011-05-21T00:46:55.193Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-09T17:21:00.663Z"
+        },
+        "mtvi:contentType" : "Standard:GameGenre",
+        "Description" : "Adventure",
+        "TypeName" : "Adventure"
+      }, {
+        "mtvi:id" : "ca7af1fa-780b-4898-97d2-94902a358202",
+        "mtvi:shortId" : "h0ntjp",
+        "mtvi:urlKey" : "ca7af1fa-780b-4898-97d2-94902a358202",
+        "mtvi:namespace" : "authorities",
+        "mtvi:created" : {
+          "$date" : "2011-05-21T00:46:54.912Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-09T17:21:12.733Z"
+        },
+        "mtvi:contentType" : "Standard:GameGenre",
+        "Description" : "Action",
+        "TypeName" : "Action"
+      } ],
+      "Images" : [ {
+        "mtvi:id" : "8c1fe582-0e5d-452c-8826-edc3638e4810",
+        "mtvi:shortId" : "bqwn50",
+        "mtvi:urlKey" : "8c1fe582-0e5d-452c-8826-edc3638e4810",
+        "mtvi:namespace" : "gametrailers",
+        "mtvi:created" : {
+          "$date" : "2011-05-20T20:16:23.434Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-03-07T13:53:56.240Z"
+        },
+        "mtvi:contentType" : "Standard:Image",
+        "Description" : "Get behind the cowl and immerse yourself in a Batman game like no other as you make your way through the maze-like Arkham Asylum while hot on the heels of the diabolical Joker.",
+        "DistPolicies" : [ {
+          "mtvi:id" : "118d5349-ab6a-4b20-bc98-ecaafbe1b252",
+          "mtvi:shortId" : "xw6yih",
+          "mtvi:urlKey" : "118d5349-ab6a-4b20-bc98-ecaafbe1b252",
+          "mtvi:namespace" : "gametrailers",
+          "mtvi:created" : {
+            "$date" : "2011-09-08T15:14:22.134Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-03-22T00:03:54.670Z"
+          },
+          "mtvi:contentType" : "Standard:DistPolicy",
+          "Name" : "Gametrailers Day 0 Policy",
+          "Rules" : [ {
+            "mtvi:contentType" : "Standard:DPRule",
+            "Start" : {
+              "$date" : "1970-01-01T00:00:00.000Z"
+            },
+            "End" : {
+              "$date" : "9999-01-31T05:00:00.000Z"
+            },
+            "Platforms" : {
+              "mtvi:id" : "43d71e59-2b24-434e-b769-7a5f1aba4b45",
+              "mtvi:shortId" : "lbc04y",
+              "mtvi:urlKey" : "all_platforms",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-12-08T21:27:15.398Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-31T18:30:18.788Z"
+              },
+              "mtvi:contentType" : "Standard:PlatformBucket",
+              "Platforms" : [ {
+                "mtvi:id" : "d03334fc-641f-4d84-85ed-4378434bf2d7",
+                "mtvi:shortId" : "totlm3",
+                "mtvi:urlKey" : "d03334fc-641f-4d84-85ed-4378434bf2d7",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-11-28T23:42:30.878Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:33:57.828Z"
+                },
+                "mtvi:contentType" : "Standard:Platform",
+                "TypeName" : "syndication"
+              }, {
+                "mtvi:id" : "405ee8ae-368e-49fd-8b3e-fc7ffb37a2a0",
+                "mtvi:shortId" : "e6cy3p",
+                "mtvi:urlKey" : "405ee8ae-368e-49fd-8b3e-fc7ffb37a2a0",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-11-28T23:42:30.638Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:33:57.998Z"
+                },
+                "mtvi:contentType" : "Standard:Platform",
+                "TypeName" : "tve"
+              }, {
+                "mtvi:id" : "39dfe10c-cc2a-40f9-a20d-962d2604d543",
+                "mtvi:shortId" : "4lor6a",
+                "mtvi:urlKey" : "39dfe10c-cc2a-40f9-a20d-962d2604d543",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-11-28T23:42:30.399Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:33:58.146Z"
+                },
+                "mtvi:contentType" : "Standard:Platform",
+                "TypeName" : "mobile-web"
+              }, {
+                "mtvi:id" : "7472c947-66dd-4708-be0b-f2e2363b243f",
+                "mtvi:shortId" : "66x35x",
+                "mtvi:urlKey" : "7472c947-66dd-4708-be0b-f2e2363b243f",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-11-28T23:42:30.138Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:33:58.278Z"
+                },
+                "mtvi:contentType" : "Standard:Platform",
+                "TypeName" : "app"
+              }, {
+                "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+                "mtvi:shortId" : "zc0r0b",
+                "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-29T18:09:14.074Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:33:58.400Z"
+                },
+                "mtvi:contentType" : "Standard:Platform",
+                "Description" : "desktop",
+                "TypeName" : "desktop"
+              } ],
+              "TypeName" : "all-platforms"
+            },
+            "xPlatforms" : {
+              "mtvi:id" : "a217b2c4-264f-408d-8775-086f59841abd",
+              "mtvi:shortId" : "ed3pia",
+              "mtvi:urlKey" : "a217b2c4-264f-408d-8775-086f59841abd",
+              "mtvi:namespace" : "gametrailers",
+              "mtvi:created" : {
+                "$date" : "2011-07-18T07:14:42.159Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-12T04:12:45.165Z"
+              },
+              "mtvi:contentType" : "Standard:PlatformBucket",
+              "TypeName" : "none - DO NOT USE (NEED TO DELETE)"
+            },
+            "Regions" : {
+              "mtvi:id" : "2d5e70e0-ce6d-11e0-879c-842b2b170032",
+              "mtvi:shortId" : "kl1lz7",
+              "mtvi:urlKey" : "all_countries",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-08-24T16:30:39.199Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-31T18:31:37.362Z"
+              },
+              "mtvi:contentType" : "Standard:RegionBucket",
+              "Regions" : [ "AF", "AX", "AL", "DZ", "AS", "AD", "AO", "AI", "AQ", "AG", "AR", "AM", "AW", "AU", "AT", "AZ", "BS", "BH", "BD", "BB", "BY", "BE", "BZ", "BJ", "BM", "BT", "BO", "BQ", "BA", "BW", "BV", "BR", "IO", "BN", "BG", "BF", "BI", "KH", "CM", "CA", "CV", "KY", "CF", "TD", "CL", "CN", "CX", "CC", "CO", "KM", "CG", "CD", "CK", "CR", "CI", "HR", "CU", "CW", "CY", "CZ", "DK", "DJ", "DM", "DO", "EC", "EG", "SV", "GQ", "ER", "EE", "ET", "FK", "FO", "FJ", "FI", "FR", "GF", "PF", "TF", "GA", "GM", "GE", "DE", "GH", "GI", "GR", "GL", "GD", "GP", "GU", "GT", "GG", "GN", "GW", "GY", "HT", "HM", "VA", "HN", "HK", "HU", "IS", "IN", "ID", "IR", "IQ", "IE", "IM", "IL", "IT", "JM", "JP", "JE", "JO", "KZ", "KE", "KI", "KP", "KR", "KW", "KG", "LA", "LV", "LB", "LS", "LR", "LY", "LI", "LT", "LU", "MO", "MK", "MG", "MW", "MY", "MV", "ML", "MT", "MH", "MQ", "MR", "MU", "YT", "MX", "FM", "MD", "MC", "MN", "ME", "MS", "MA", "MZ", "MM", "NA", "NR", "NP", "NL", "NC", "NZ", "NI", "NE", "NG", "NU", "NF", "MP", "NO", "OM", "PK", "PW", "PS", "PA", "PG", "PY", "PE", "PH", "PN", "PL", "PT", "PR", "QA", "RE", "RO", "RU", "RW", "BL", "SH", "KN", "LC", "MF", "PM", "VC", "WS", "SM", "ST", "SA", "SN", "RS", "SC", "SL", "SG", "SX", "SK", "SI", "SB", "SO", "ZA", "GS", "ES", "LK", "SD", "SR", "SJ", "SZ", "SE", "CH", "SY", "TW", "TJ", "TZ", "TH", "TL", "TG", "TK", "TO", "TT", "TN", "TR", "TM", "TC", "TV", "UG", "UA", "AE", "GB", "US", "UM", "UY", "UZ", "VU", "VE", "VN", "VG", "VI", "WF", "EH", "YE", "ZM", "ZW" ],
+              "TypeName" : "ALL"
+            },
+            "xRegions" : {
+              "mtvi:id" : "b17679ed-18f3-4c7f-9c0b-b07b6aeae5f7",
+              "mtvi:shortId" : "quwp0x",
+              "mtvi:urlKey" : "no_countries",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-08-08T16:51:02.183Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-31T18:31:52.988Z"
+              },
+              "mtvi:contentType" : "Standard:RegionBucket",
+              "Description" : "None",
+              "Title" : "None",
+              "TypeName" : "None"
+            },
+            "Orgs" : {
+              "mtvi:id" : "c8ff18ec-f9d4-42ed-9832-8823842a936d",
+              "mtvi:shortId" : "bolqve",
+              "mtvi:urlKey" : "all_orgs",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-08-16T15:51:03.565Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-31T18:33:03.262Z"
+              },
+              "mtvi:contentType" : "Standard:OrganizationBucket",
+              "Organizations" : [ {
+                "mtvi:id" : "a6c69228-ffb0-4ed5-b6b3-4938d0d0460c",
+                "mtvi:shortId" : "mkmj7d",
+                "mtvi:urlKey" : "nickelodeonafrica",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-29T18:09:14.182Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:00.312Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "Nickelodeonafrica.com",
+                "URL" : "www.nickelodeonafrica.com"
+              }, {
+                "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+                "mtvi:shortId" : "ps68av",
+                "mtvi:urlKey" : "Spike",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-29T22:57:03.938Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:01.563Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "Spike.com",
+                "URL" : "Spike.com"
+              }, {
+                "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+                "mtvi:shortId" : "2yiemq",
+                "mtvi:urlKey" : "Gametrailers",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-29T22:57:30.117Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:01.712Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "Gametrailers.com",
+                "URL" : "Gametrailers.com"
+              }, {
+                "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+                "mtvi:shortId" : "3cskuk",
+                "mtvi:urlKey" : "comedy",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-29T22:57:48.998Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:01.869Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "Comedy.com",
+                "URL" : "Comedy.com"
+              }, {
+                "mtvi:id" : "e1c4d8bd-f8b4-4129-b75b-18c8bbf29d1a",
+                "mtvi:shortId" : "pmvgja",
+                "mtvi:urlKey" : "NickelodeonSpain",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-30T21:12:52.866Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:00.473Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickelodeonSpain.com",
+                "URL" : "NickelodeonSpain.com"
+              }, {
+                "mtvi:id" : "dd1e924f-0196-4672-9d5f-76b8b794a52c",
+                "mtvi:shortId" : "zf7jsz",
+                "mtvi:urlKey" : "NickelodeonItaly",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-30T21:12:17.631Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:00.658Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickelodeonItaly.com",
+                "URL" : "NickelodeonItaly.com"
+              }, {
+                "mtvi:id" : "cf030386-4ce2-4514-9746-2934c5fd0f07",
+                "mtvi:shortId" : "pbpcgd",
+                "mtvi:urlKey" : "NickelodeonCanada",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-30T21:11:45.585Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:00.800Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickelodeonCanada.com",
+                "URL" : "NickelodeonCanada.com"
+              }, {
+                "mtvi:id" : "c00a09a8-622c-42fd-83d5-baf11c9c6c20",
+                "mtvi:shortId" : "28ost1",
+                "mtvi:urlKey" : "NickelodeonSingapore",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-30T21:11:06.047Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:00.942Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickelodeonSingapore.com",
+                "URL" : "NickelodeonSingapore.com"
+              }, {
+                "mtvi:id" : "f9f1dcd7-54bb-4c78-8567-aeccba745717",
+                "mtvi:shortId" : "4i8yfk",
+                "mtvi:urlKey" : "NickelodeonPoland",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-30T21:10:11.612Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:01.083Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickelodeonPoland.com",
+                "URL" : "NickelodeonPoland.com"
+              }, {
+                "mtvi:id" : "7e47972e-5220-4657-9491-4a4dea1de785",
+                "mtvi:shortId" : "gf1xl7",
+                "mtvi:urlKey" : "NickelodeonKorea",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-30T21:09:36.412Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:01.241Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickelodeonKorea.com",
+                "URL" : "NickelodeonKorea.com"
+              }, {
+                "mtvi:id" : "deccc82d-5f25-45cf-bf43-884516863ed2",
+                "mtvi:shortId" : "8a5kfs",
+                "mtvi:urlKey" : "deccc82d-5f25-45cf-bf43-884516863ed2",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-06-29T22:52:30.363Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:01.393Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "TypeName" : "NickJr.com",
+                "URL" : "NickJr.com"
+              }, {
+                "mtvi:id" : "19a128aa-90c2-102e-8d93-0026b9419ed3",
+                "mtvi:shortId" : "t1gf1k",
+                "mtvi:urlKey" : "19a128aa-90c2-102e-8d93-0026b9419ed3",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-05-12T08:42:11.841Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2012-01-17T16:34:00.168Z"
+                },
+                "mtvi:contentType" : "Standard:Site",
+                "Description" : "Nick Site",
+                "TypeName" : "Nick",
+                "URL" : "http://www.nick.com"
+              }, {
+                "mtvi:id" : "d9cd88fc-aa4e-4775-b072-e106439e3aa4",
+                "mtvi:shortId" : "6dc6wt",
+                "mtvi:urlKey" : "d9cd88fc-aa4e-4775-b072-e106439e3aa4",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-08-05T19:05:43.806Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2011-08-11T20:07:41.734Z"
+                },
+                "mtvi:contentType" : "Standard:BroadcastTelevisionChannel",
+                "Description" : "NickJr",
+                "Name" : "NickJr",
+                "TypeName" : "Channel"
+              }, {
+                "mtvi:id" : "c3b3880d-4009-4427-82b9-663a961155d9",
+                "mtvi:shortId" : "0j177f",
+                "mtvi:urlKey" : "c3b3880d-4009-4427-82b9-663a961155d9",
+                "mtvi:namespace" : "authorities",
+                "mtvi:created" : {
+                  "$date" : "2011-08-03T18:39:21.428Z"
+                },
+                "mtvi:updated" : {
+                  "$date" : "2011-08-03T18:39:21.429Z"
+                },
+                "mtvi:contentType" : "Standard:BroadcastTelevisionChannel",
+                "Description" : "Nick",
+                "Name" : "Nick",
+                "TypeName" : "Channel"
+              } ],
+              "TypeName" : "All"
+            },
+            "xOrgs" : {
+              "mtvi:id" : "5e460f87-f3ab-44dd-9e48-af7663173331",
+              "mtvi:shortId" : "effb08",
+              "mtvi:urlKey" : "no_orgs",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-08-08T16:55:46.066Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-31T18:32:46.574Z"
+              },
+              "mtvi:contentType" : "Standard:OrganizationBucket",
+              "Description" : "None",
+              "Title" : "None",
+              "TypeName" : "None"
+            }
+          } ]
+        } ],
+        "ImageAssetRefs" : [ {
+          "mtvi:id" : "04004bd4-801c-4c1b-9789-6dfb4629d431",
+          "mtvi:shortId" : "ssr2zh",
+          "mtvi:urlKey" : "04004bd4-801c-4c1b-9789-6dfb4629d431",
+          "mtvi:namespace" : "gametrailers",
+          "mtvi:created" : {
+            "$date" : "2011-05-19T18:45:46.210Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-03-07T16:31:33.254Z"
+          },
+          "mtvi:contentType" : "Standard:ImageAssetRef",
+          "Format" : {
+            "mtvi:id" : "1ae36ce7-2b9e-4c03-a26b-dabe940de56a",
+            "mtvi:shortId" : "6r4kon",
+            "mtvi:urlKey" : "1ae36ce7-2b9e-4c03-a26b-dabe940de56a",
+            "mtvi:namespace" : "authorities",
+            "mtvi:secondaryNamespaces" : [ "nviews" ],
+            "mtvi:created" : {
+              "$date" : "2011-05-12T08:42:10.821Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-02-27T23:18:12.262Z"
+            },
+            "mtvi:contentType" : "Standard:ImageAssetType",
+            "TypeName" : "jpg"
+          },
+          "Height" : 100,
+          "Site" : {
+            "mtvi:id" : "18b95bc9-f688-45a1-9189-5935c8a00631",
+            "mtvi:shortId" : "rd9w2q",
+            "mtvi:urlKey" : "18b95bc9-f688-45a1-9189-5935c8a00631",
+            "mtvi:namespace" : "gametrailers",
+            "mtvi:created" : {
+              "$date" : "2011-05-19T13:38:41.423Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2011-07-22T10:59:27.850Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "gametrailers.mtvnimages.com",
+            "URL" : "http://gametrailers.mtvnimages.com"
+          },
+          "SysRefs" : [ {
+            "mtvi:contentType" : "Standard:SysRef",
+            "SysName" : "mysql",
+            "SysDescription" : "moses_games",
+            "URI" : "10111"
+          } ],
+          "URI" : "mgid:file:gsp:gametrailers-assets:/images/moses/boxart/10111-b_batmanaa_t_819.jpg",
+          "Width" : 70
+        } ],
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "SEODescription" : "Get behind the cowl and immerse yourself in a Batman game like no other as you make your way through the maze-like Arkham Asylum while hot on the heels of the diabolical Joker.",
+        "SEOTitle" : "Batman: Arkham Asylum",
+        "SortTitle" : "Batman: Arkham Asylum",
+        "SysRefs" : [ {
+          "mtvi:contentType" : "Standard:SysRef",
+          "SysName" : "mysql",
+          "SysDescription" : "moses_games",
+          "URI" : "10111"
+        } ],
+        "Title" : "Batman: Arkham Asylum"
+      } ],
+      "Keywords" : [ "asylum", "adventure", "xb360", "joker", "ps3", "pc", "action", "batman", "arkham" ],
+      "Language" : "eng",
+      "LicensedContent" : [ {
+        "$oid" : "c17a2470-3ed2-40e0-96ce-4caa65642b4a"
+      } ],
+      "Ratings" : [ {
+        "mtvi:contentType" : "Standard:ESRB",
+        "Rating" : {
+          "mtvi:id" : "e85e4674-b95f-4927-931e-630a00a413e8",
+          "mtvi:shortId" : "rvtmup",
+          "mtvi:urlKey" : "e85e4674-b95f-4927-931e-630a00a413e8",
+          "mtvi:namespace" : "gametrailers",
+          "mtvi:created" : {
+            "$date" : "2011-05-21T00:46:52.308Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-04-05T22:16:15.484Z"
+          },
+          "mtvi:contentType" : "Standard:RatingESRB",
+          "Code" : "T",
+          "TypeName" : "Teen"
+        }
+      } ],
+      "SEODescription" : "Get behind the cowl and immerse yourself in a Batman game like no other as you make your way through the maze-like Arkham Asylum while hot on the heels of the diabolical Joker.",
+      "SEOKeywords" : [ "asylum", "adventure", "xb360", "joker", "ps3", "pc", "action", "batman", "arkham" ],
+      "SEOTitle" : "Batman: Arkham Asylum",
+      "SortTitle" : "Batman: Arkham Asylum",
+      "SysRefs" : [ {
+        "mtvi:contentType" : "Standard:SysRef",
+        "SysName" : "mysql",
+        "SysDescription" : "moses_games",
+        "URI" : "10111"
+      } ],
+      "Tags" : [ {
+        "mtvi:id" : "0ed13c32-7bef-11e0-8fe5-0026b9414f30",
+        "mtvi:shortId" : "a60ob8",
+        "mtvi:urlKey" : "generic-tag-action",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-12T09:17:36.010Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-02-17T22:30:52.308Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "CMRs" : [ {
+          "mtvi:id" : "79d74c9f-80f5-429c-97df-ab1df12ed658",
+          "mtvi:shortId" : "jh5rtv",
+          "mtvi:urlKey" : "79d74c9f-80f5-429c-97df-ab1df12ed658",
+          "mtvi:namespace" : "tags",
+          "mtvi:secondaryNamespaces" : [ "nick-africa" ],
+          "mtvi:created" : {
+            "$date" : "2011-06-03T18:45:11.139Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2011-08-25T09:34:13.599Z"
+          },
+          "mtvi:contentType" : "Standard:TagCMR",
+          "Language" : "eng",
+          "OrgBucket" : {
+            "mtvi:id" : "fae9609b-7986-4b86-a383-cf23cc00b5dc",
+            "mtvi:shortId" : "0dudg6",
+            "mtvi:urlKey" : "international",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.253Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-05-09T00:16:36.963Z"
+            },
+            "mtvi:contentType" : "Standard:OrganizationBucket",
+            "Organizations" : [ {
+              "mtvi:id" : "a6c69228-ffb0-4ed5-b6b3-4938d0d0460c",
+              "mtvi:shortId" : "mkmj7d",
+              "mtvi:urlKey" : "nickelodeonafrica",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-29T18:09:14.182Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:00.312Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "Nickelodeonafrica.com",
+              "URL" : "www.nickelodeonafrica.com"
+            }, {
+              "mtvi:id" : "01868218-769b-404c-a34b-4ba7160a6a29",
+              "mtvi:shortId" : "c1cpxe",
+              "mtvi:urlKey" : "01868218-769b-404c-a34b-4ba7160a6a29",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:24:46.811Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:24:46.814Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nview.tv",
+              "TypeName" : "nview.tv",
+              "URL" : "nview.tv"
+            }, {
+              "mtvi:id" : "c5addb37-8256-4aa7-90bf-5b2ee3622d49",
+              "mtvi:shortId" : "rri390",
+              "mtvi:urlKey" : "c5addb37-8256-4aa7-90bf-5b2ee3622d49",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:24:34.052Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:24:34.054Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nview.it",
+              "TypeName" : "nview.it",
+              "URL" : "nview.it"
+            }, {
+              "mtvi:id" : "22579ae8-2b5b-4916-93a8-4beb5b8a4dbb",
+              "mtvi:shortId" : "6fy15u",
+              "mtvi:urlKey" : "22579ae8-2b5b-4916-93a8-4beb5b8a4dbb",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:24:19.351Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:24:19.353Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nview.co.uk",
+              "TypeName" : "nview.co.uk",
+              "URL" : "nview.co.uk"
+            }, {
+              "mtvi:id" : "1ee23a61-2693-44d7-bcfa-4e01c516c235",
+              "mtvi:shortId" : "zwsl1z",
+              "mtvi:urlKey" : "1ee23a61-2693-44d7-bcfa-4e01c516c235",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:23:54.437Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:23:54.439Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nnews.fr",
+              "TypeName" : "nnews.fr",
+              "URL" : "nnews.fr"
+            }, {
+              "mtvi:id" : "4ff00f4b-6745-4a47-a6cc-02328927b243",
+              "mtvi:shortId" : "4qez0v",
+              "mtvi:urlKey" : "4ff00f4b-6745-4a47-a6cc-02328927b243",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:23:39.365Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:23:39.368Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nnews.be",
+              "TypeName" : "nnews.be",
+              "URL" : "nnews.be"
+            }, {
+              "mtvi:id" : "b71925d8-6588-43f8-8bd1-aeba0500e9f8",
+              "mtvi:shortId" : "wj0hyw",
+              "mtvi:urlKey" : "b71925d8-6588-43f8-8bd1-aeba0500e9f8",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:23:23.893Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:23:23.901Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nickvision.es",
+              "TypeName" : "nickvision.es",
+              "URL" : "nickvision.es"
+            }, {
+              "mtvi:id" : "4758a50c-b06d-448d-923b-5f0bb7cf1eec",
+              "mtvi:shortId" : "km4mlc",
+              "mtvi:urlKey" : "4758a50c-b06d-448d-923b-5f0bb7cf1eec",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:23:05.597Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:23:05.601Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nicknzine.nl",
+              "TypeName" : "nicknzine.nl",
+              "URL" : "nicknzine.nl"
+            }, {
+              "mtvi:id" : "0af838d5-0dfb-4513-9f60-3210c4f029df",
+              "mtvi:shortId" : "fdx70v",
+              "mtvi:urlKey" : "0af838d5-0dfb-4513-9f60-3210c4f029df",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:22:27.925Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:22:27.930Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nblick.ch",
+              "TypeName" : "nblick.ch",
+              "URL" : "nblick.ch"
+            }, {
+              "mtvi:id" : "61fb1783-0dd1-452e-820e-605bb7d138f7",
+              "mtvi:shortId" : "rvndn2",
+              "mtvi:urlKey" : "61fb1783-0dd1-452e-820e-605bb7d138f7",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:22:50.041Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:22:50.045Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nblick.de",
+              "TypeName" : "nblick.de",
+              "URL" : "nblick.de"
+            }, {
+              "mtvi:id" : "fa9220be-eb1b-4d9c-8c00-346a94a50ece",
+              "mtvi:shortId" : "pkq88w",
+              "mtvi:urlKey" : "fa9220be-eb1b-4d9c-8c00-346a94a50ece",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:21:52.830Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:21:52.833Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nblick.at",
+              "TypeName" : "nblick.at",
+              "URL" : "nblick.at"
+            }, {
+              "mtvi:id" : "18ae1e68-fe17-4c9a-9b7e-e2e7192a2b1d",
+              "mtvi:shortId" : "u095ho",
+              "mtvi:urlKey" : "18ae1e68-fe17-4c9a-9b7e-e2e7192a2b1d",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:25:15.050Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:25:15.058Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nzine.be",
+              "TypeName" : "nzine.be",
+              "URL" : "nzine.be"
+            }, {
+              "mtvi:id" : "3c9ea0c7-05b6-4a51-b846-182f1993daa8",
+              "mtvi:shortId" : "98rj16",
+              "mtvi:urlKey" : "3c9ea0c7-05b6-4a51-b846-182f1993daa8",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-01-19T18:25:02.198Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-19T18:25:02.200Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "nvision.com.pt",
+              "TypeName" : "nvision.com.pt",
+              "URL" : "nvision.com.pt"
+            }, {
+              "mtvi:id" : "7e47972e-5220-4657-9491-4a4dea1de785",
+              "mtvi:shortId" : "gf1xl7",
+              "mtvi:urlKey" : "NickelodeonKorea",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-30T21:09:36.412Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:01.241Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "NickelodeonKorea.com",
+              "URL" : "NickelodeonKorea.com"
+            }, {
+              "mtvi:id" : "f9f1dcd7-54bb-4c78-8567-aeccba745717",
+              "mtvi:shortId" : "4i8yfk",
+              "mtvi:urlKey" : "NickelodeonPoland",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-30T21:10:11.612Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:01.083Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "NickelodeonPoland.com",
+              "URL" : "NickelodeonPoland.com"
+            }, {
+              "mtvi:id" : "c00a09a8-622c-42fd-83d5-baf11c9c6c20",
+              "mtvi:shortId" : "28ost1",
+              "mtvi:urlKey" : "NickelodeonSingapore",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-30T21:11:06.047Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:00.942Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "NickelodeonSingapore.com",
+              "URL" : "NickelodeonSingapore.com"
+            }, {
+              "mtvi:id" : "cf030386-4ce2-4514-9746-2934c5fd0f07",
+              "mtvi:shortId" : "pbpcgd",
+              "mtvi:urlKey" : "NickelodeonCanada",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-30T21:11:45.585Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:00.800Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "NickelodeonCanada.com",
+              "URL" : "NickelodeonCanada.com"
+            }, {
+              "mtvi:id" : "dd1e924f-0196-4672-9d5f-76b8b794a52c",
+              "mtvi:shortId" : "zf7jsz",
+              "mtvi:urlKey" : "NickelodeonItaly",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-30T21:12:17.631Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:00.658Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "NickelodeonItaly.com",
+              "URL" : "NickelodeonItaly.com"
+            }, {
+              "mtvi:id" : "e1c4d8bd-f8b4-4129-b75b-18c8bbf29d1a",
+              "mtvi:shortId" : "pmvgja",
+              "mtvi:urlKey" : "NickelodeonSpain",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-30T21:12:52.866Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:34:00.473Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "NickelodeonSpain.com",
+              "URL" : "NickelodeonSpain.com"
+            }, {
+              "mtvi:id" : "03532755-a559-4334-87ce-b09bf13e39c2",
+              "mtvi:shortId" : "jnpys2",
+              "mtvi:urlKey" : "03532755-a559-4334-87ce-b09bf13e39c2",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:05:51.495Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:05:51.501Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nick-nview.com.la",
+              "TypeName" : "www.nick-nview.com.la",
+              "URL" : "www.nick-nview.com.la",
+              "URLAlias" : "www.nick-nview.com.la"
+            }, {
+              "mtvi:id" : "9070c3ea-1dc0-4730-b27a-7aace3360d48",
+              "mtvi:shortId" : "rcz0hp",
+              "mtvi:urlKey" : "9070c3ea-1dc0-4730-b27a-7aace3360d48",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:07:27.657Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:07:27.661Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nick-nview.com.au",
+              "TypeName" : "www.nick-nview.com.au",
+              "URL" : "www.nick-nview.com.au",
+              "URLAlias" : "www.nick-nview.com.au"
+            }, {
+              "mtvi:id" : "394b3218-932f-4fd4-b72a-7df9d83ada9a",
+              "mtvi:shortId" : "vznhgg",
+              "mtvi:urlKey" : "394b3218-932f-4fd4-b72a-7df9d83ada9a",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:09:18.571Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:09:18.575Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nview.co.nz",
+              "TypeName" : "www.nview.co.nz",
+              "URL" : "www.nview.co.nz",
+              "URLAlias" : "www.nview.co.nz"
+            }, {
+              "mtvi:id" : "4d1cd499-d4e6-4c5e-8f70-359f9bce7758",
+              "mtvi:shortId" : "74yyvi",
+              "mtvi:urlKey" : "4d1cd499-d4e6-4c5e-8f70-359f9bce7758",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:11:00.482Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:11:00.487Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nblick.se",
+              "TypeName" : "www.nblick.se",
+              "URL" : "www.nblick.se",
+              "URLAlias" : "www.nblick.se"
+            }, {
+              "mtvi:id" : "2c636905-161a-4ffd-8d79-f8e0fe41dd84",
+              "mtvi:shortId" : "6a1fcy",
+              "mtvi:urlKey" : "2c636905-161a-4ffd-8d79-f8e0fe41dd84",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:11:47.160Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:11:47.163Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nblik.dk",
+              "TypeName" : "www.nblik.dk",
+              "URL" : "www.nblik.dk",
+              "URLAlias" : "www.nblik.dk"
+            }, {
+              "mtvi:id" : "c641f8bb-7a1b-42ee-80f5-389badfac5ba",
+              "mtvi:shortId" : "mcahs5",
+              "mtvi:urlKey" : "c641f8bb-7a1b-42ee-80f5-389badfac5ba",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:13:00.371Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:13:00.375Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nnews.com.pl",
+              "TypeName" : "www.nnews.com.pl",
+              "URL" : "www.nnews.com.pl",
+              "URLAlias" : "www.nnews.com.pl"
+            }, {
+              "mtvi:id" : "1a311ffa-0690-4137-b826-7972523ee381",
+              "mtvi:shortId" : "za0stt",
+              "mtvi:urlKey" : "1a311ffa-0690-4137-b826-7972523ee381",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T07:14:26.259Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T07:14:26.261Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "www.nblikk.no",
+              "TypeName" : "www.nblikk.no",
+              "URL" : "www.nblikk.no",
+              "URLAlias" : "www.nblikk.no"
+            }, {
+              "mtvi:id" : "6b34c045-36f6-479e-958c-0a625020685d",
+              "mtvi:shortId" : "7tc3n5",
+              "mtvi:urlKey" : "6b34c045-36f6-479e-958c-0a625020685d",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-15T06:43:13.339Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-15T06:43:13.342Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "nview.com.br",
+              "URL" : "nview.com.br",
+              "URLAlias" : "nview.com.br"
+            }, {
+              "mtvi:id" : "f1f92344-d4af-4179-a89a-698867b8ab91",
+              "mtvi:shortId" : "zwzo1i",
+              "mtvi:urlKey" : "f1f92344-d4af-4179-a89a-698867b8ab91",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-27T20:49:58.005Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-27T20:49:58.283Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "movies.mtv.com.au",
+              "TypeName" : "movies.mtv.com.au",
+              "URL" : "movies.mtv.com.au",
+              "URLAlias" : "movies.mtv.com.au"
+            }, {
+              "mtvi:id" : "74077d54-033b-4f9c-8230-98c2ba46511e",
+              "mtvi:shortId" : "l97scw",
+              "mtvi:urlKey" : "74077d54-033b-4f9c-8230-98c2ba46511e",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T17:31:21.781Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T17:31:21.804Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "movies.mtv.co.uk",
+              "TypeName" : "movies.mtv.co.uk",
+              "URL" : "movies.mtv.co.uk",
+              "URLAlias" : "movies.mtv.co.uk"
+            }, {
+              "mtvi:id" : "ff1f2d3c-348e-4488-9dc5-b44df6e2dfee",
+              "mtvi:shortId" : "ceupbo",
+              "mtvi:urlKey" : "ff1f2d3c-348e-4488-9dc5-b44df6e2dfee",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T17:35:24.780Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T17:35:24.806Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "movies.mtv.es",
+              "TypeName" : "movies.mtv.es",
+              "URL" : "movies.mtv.es",
+              "URLAlias" : "movies.mtv.es"
+            }, {
+              "mtvi:id" : "7f03b0cf-8d5e-408b-bd19-84a7df61260e",
+              "mtvi:shortId" : "zrma8n",
+              "mtvi:urlKey" : "7f03b0cf-8d5e-408b-bd19-84a7df61260e",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T19:08:43.593Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T19:08:43.607Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.vh1brasil.uol.com.br",
+              "URL" : "movies.vh1brasil.uol.com.br",
+              "URLAlias" : "movies.vh1brasil.uol.com.br"
+            }, {
+              "mtvi:id" : "26a4e360-afe6-4127-aed1-08bc99c135b4",
+              "mtvi:shortId" : "2es1jg",
+              "mtvi:urlKey" : "26a4e360-afe6-4127-aed1-08bc99c135b4",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T19:06:20.035Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T19:06:20.051Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.tr3s.com",
+              "URL" : "movies.tr3s.com",
+              "URLAlias" : "movies.tr3s.com"
+            }, {
+              "mtvi:id" : "748cee5d-dfec-4cd2-9dc4-511fde25889d",
+              "mtvi:shortId" : "y3pz1r",
+              "mtvi:urlKey" : "748cee5d-dfec-4cd2-9dc4-511fde25889d",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T19:04:53.279Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T19:04:53.288Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.nordic.mtve.com",
+              "URL" : "movies.nordic.mtve.com",
+              "URLAlias" : "movies.nordic.mtve.com"
+            }, {
+              "mtvi:id" : "cf723d20-543b-43ac-b01a-ce7f55556599",
+              "mtvi:shortId" : "oi7gj7",
+              "mtvi:urlKey" : "cf723d20-543b-43ac-b01a-ce7f55556599",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T19:03:30.642Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T19:03:30.657Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtvla.com",
+              "URL" : "movies.mtvla.com",
+              "URLAlias" : "movies.mtvla.com"
+            }, {
+              "mtvi:id" : "b5193989-6566-48c6-9ae4-f58ed8bebf51",
+              "mtvi:shortId" : "oxhmue",
+              "mtvi:urlKey" : "b5193989-6566-48c6-9ae4-f58ed8bebf51",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T19:02:14.474Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T19:02:14.477Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.tv",
+              "URL" : "movies.mtv.tv",
+              "URLAlias" : "movies.mtv.tv"
+            }, {
+              "mtvi:id" : "d8feb28e-c9ac-4b27-8f4d-3e943d569425",
+              "mtvi:shortId" : "2fyfer",
+              "mtvi:urlKey" : "d8feb28e-c9ac-4b27-8f4d-3e943d569425",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:55:58.445Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:55:58.466Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.pt",
+              "URL" : "movies.mtv.pt",
+              "URLAlias" : "movies.mtv.pt"
+            }, {
+              "mtvi:id" : "39c77ce6-ba5b-48b4-bc8a-60a85cc3eed0",
+              "mtvi:shortId" : "8hgx52",
+              "mtvi:urlKey" : "39c77ce6-ba5b-48b4-bc8a-60a85cc3eed0",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:54:56.929Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:54:56.948Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.pl",
+              "URL" : "movies.mtv.pl",
+              "URLAlias" : "movies.mtv.pl"
+            }, {
+              "mtvi:id" : "01059fde-7691-4fd7-9b48-5619727bd7a1",
+              "mtvi:shortId" : "hfmxon",
+              "mtvi:urlKey" : "01059fde-7691-4fd7-9b48-5619727bd7a1",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:54:08.315Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:54:08.328Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.nl",
+              "URL" : "movies.mtv.nl",
+              "URLAlias" : "movies.mtv.nl"
+            }, {
+              "mtvi:id" : "ecea807e-00fe-42c7-8b5b-0adcd3b3b5e1",
+              "mtvi:shortId" : "tj25y5",
+              "mtvi:urlKey" : "ecea807e-00fe-42c7-8b5b-0adcd3b3b5e1",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:52:44.931Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:52:44.951Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.it",
+              "URL" : "movies.mtv.it",
+              "URLAlias" : "movies.mtv.it"
+            }, {
+              "mtvi:id" : "a3c9b9a9-0c43-44a2-93a5-27ae11558037",
+              "mtvi:shortId" : "fnq1r7",
+              "mtvi:urlKey" : "a3c9b9a9-0c43-44a2-93a5-27ae11558037",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:48:08.372Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:48:08.385Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.fr",
+              "URL" : "movies.mtv.fr",
+              "URLAlias" : "movies.mtv.fr"
+            }, {
+              "mtvi:id" : "a92914d5-ac79-486e-b871-f5ba81076a25",
+              "mtvi:shortId" : "op8yls",
+              "mtvi:urlKey" : "a92914d5-ac79-486e-b871-f5ba81076a25",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:44:32.316Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:44:32.333Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.be",
+              "URL" : "movies.mtv.be",
+              "URLAlias" : "movies.mtv.be"
+            }, {
+              "mtvi:id" : "46042fa3-e68f-4811-952b-a9dfcf3e517f",
+              "mtvi:shortId" : "456v5v",
+              "mtvi:urlKey" : "46042fa3-e68f-4811-952b-a9dfcf3e517f",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-03-28T18:41:03.766Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-03-28T18:41:03.782Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "TypeName" : "movies.mtv.de",
+              "URL" : "movies.mtv.de",
+              "URLAlias" : "movies.mtv.de"
+            }, {
+              "mtvi:id" : "bf4844b5-9ee4-4a6c-a730-47cd31a90e79",
+              "mtvi:shortId" : "mvur2h",
+              "mtvi:urlKey" : "bf4844b5-9ee4-4a6c-a730-47cd31a90e79",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:05:53.003Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:05:53.008Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.co.uk",
+              "TypeName" : "style.mtv.co.uk",
+              "URL" : "style.mtv.co.uk",
+              "URLAlias" : "style.mtv.co.uk"
+            }, {
+              "mtvi:id" : "965829a7-ad53-4bf6-9607-49d371095b8b",
+              "mtvi:shortId" : "2sy5vl",
+              "mtvi:urlKey" : "965829a7-ad53-4bf6-9607-49d371095b8b",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:07:56.527Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:07:56.529Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.de",
+              "TypeName" : "style.mtv.de",
+              "URL" : "style.mtv.de",
+              "URLAlias" : "style.mtv.de"
+            }, {
+              "mtvi:id" : "bc0e7bfa-b89e-4b6f-8a30-dc778eedf208",
+              "mtvi:shortId" : "xzpdqs",
+              "mtvi:urlKey" : "bc0e7bfa-b89e-4b6f-8a30-dc778eedf208",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:13:03.279Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:13:03.284Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.it",
+              "TypeName" : "style.mtv.it",
+              "URL" : "style.mtv.it",
+              "URLAlias" : "style.mtv.it"
+            }, {
+              "mtvi:id" : "3de8f8b4-4ac9-451c-86e4-274223c728a6",
+              "mtvi:shortId" : "d9wfyl",
+              "mtvi:urlKey" : "3de8f8b4-4ac9-451c-86e4-274223c728a6",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:15:41.252Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:15:41.255Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.es",
+              "TypeName" : "style.mtv.es",
+              "URL" : "style.mtv.es",
+              "URLAlias" : "style.mtv.es"
+            }, {
+              "mtvi:id" : "82732ddf-383d-42d0-b9f9-79b39f65f4d6",
+              "mtvi:shortId" : "pyi1qv",
+              "mtvi:urlKey" : "82732ddf-383d-42d0-b9f9-79b39f65f4d6",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:17:38.083Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:17:38.091Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.fr",
+              "TypeName" : "style.mtv.fr",
+              "URL" : "style.mtv.fr",
+              "URLAlias" : "style.mtv.fr"
+            }, {
+              "mtvi:id" : "1b13d062-d102-49c8-937e-a5c892235599",
+              "mtvi:shortId" : "4yuzwg",
+              "mtvi:urlKey" : "1b13d062-d102-49c8-937e-a5c892235599",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:19:23.863Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:19:23.868Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.com.au",
+              "TypeName" : "style.mtv.com.au",
+              "URL" : "style.mtv.com.au",
+              "URLAlias" : "style.mtv.com.au"
+            }, {
+              "mtvi:id" : "393e5987-94d7-4c69-996d-2a5f67e11ceb",
+              "mtvi:shortId" : "7apjyt",
+              "mtvi:urlKey" : "393e5987-94d7-4c69-996d-2a5f67e11ceb",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:21:27.845Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:21:27.849Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtvla.com",
+              "TypeName" : "style.mtvla.com",
+              "URL" : "style.mtvla.com",
+              "URLAlias" : "style.mtvla.com"
+            }, {
+              "mtvi:id" : "e5dd6740-bb26-46ef-8e8a-27393a60ffdf",
+              "mtvi:shortId" : "9idw27",
+              "mtvi:urlKey" : "e5dd6740-bb26-46ef-8e8a-27393a60ffdf",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2012-04-30T06:23:29.321Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-04-30T06:23:29.326Z"
+              },
+              "mtvi:contentType" : "Standard:Site",
+              "Description" : "style.mtv.uol.com.br",
+              "TypeName" : "style.mtv.uol.com.br",
+              "URL" : "style.mtv.uol.com.br",
+              "URLAlias" : "style.mtv.uol.com.br"
+            } ],
+            "TypeName" : "international"
+          },
+          "PlatformBucket" : {
+            "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+            "mtvi:shortId" : "r9m7at",
+            "mtvi:urlKey" : "desktop",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.128Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:00.007Z"
+            },
+            "mtvi:contentType" : "Standard:PlatformBucket",
+            "Platforms" : [ {
+              "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+              "mtvi:shortId" : "zc0r0b",
+              "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+              "mtvi:namespace" : "authorities",
+              "mtvi:created" : {
+                "$date" : "2011-06-29T18:09:14.074Z"
+              },
+              "mtvi:updated" : {
+                "$date" : "2012-01-17T16:33:58.400Z"
+              },
+              "mtvi:contentType" : "Standard:Platform",
+              "Description" : "desktop",
+              "TypeName" : "desktop"
+            } ],
+            "TypeName" : "desktop"
+          },
+          "Region" : "afr",
+          "RegionBucket" : {
+            "mtvi:id" : "64bb0946-bedd-4fae-9d49-6fa1a80738ae",
+            "mtvi:shortId" : "oky63z",
+            "mtvi:urlKey" : "africa",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.311Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:50.832Z"
+            },
+            "mtvi:contentType" : "Standard:RegionBucket",
+            "Regions" : [ "ZA", "BJ", "BW", "BF", "BI", "CM", "CF", "TD", "KM", "CG", "CI", "CD", "GQ", "ER", "ET", "GA", "GM", "GH", "KE", "LR", "MG", "MW", "ML", "MU", "MZ", "NA", "NG", "RW", "ST", "SN", "SC", "SL", "SD", "SZ", "TZ", "TG", "TN", "ZM", "ZW" ],
+            "TypeName" : "Africa"
+          },
+          "TagText" : "action"
+        } ],
+        "Language" : "eng",
+        "Region" : "us",
+        "SEOKeywords" : [ "" ],
+        "SysRefs" : [ {
+          "mtvi:contentType" : "Standard:SysRef",
+          "SysName" : "Comedycentral Kramer",
+          "SysDescription" : "BlogEntryTags",
+          "URI" : "154628"
+        } ],
+        "TagText" : "Action"
+      }, {
+        "mtvi:id" : "5dfef892-3b9a-4124-bd76-d4836564556c",
+        "mtvi:shortId" : "grkjk8",
+        "mtvi:urlKey" : "arkham",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-18T15:53:10.226Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-14T05:52:24.414Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "TagText" : "arkham"
+      }, {
+        "mtvi:id" : "ffa88742-ac39-4292-8d4a-4eed8ed1b0c5",
+        "mtvi:shortId" : "hxfqrp",
+        "mtvi:urlKey" : "pc",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-18T15:42:10.169Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-14T05:43:06.361Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "TagText" : "pc"
+      }, {
+        "mtvi:id" : "0dc0ae5c-69ef-4807-a2bc-a62a3169d295",
+        "mtvi:shortId" : "impu2r",
+        "mtvi:urlKey" : "asylum",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-18T15:45:50.606Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-14T05:15:09.010Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "TagText" : "asylum"
+      }, {
+        "mtvi:id" : "d2ff5d3d-6c7c-4bf6-90aa-720f36edf25f",
+        "mtvi:shortId" : "wnzw1w",
+        "mtvi:urlKey" : "joker",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-18T14:01:16.777Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-14T06:10:31.485Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "TagText" : "joker"
+      }, {
+        "mtvi:id" : "0ed147c2-7bef-11e0-8fe5-0026b9414f30",
+        "mtvi:shortId" : "z462uv",
+        "mtvi:urlKey" : "adventure",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-12T09:17:36.054Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2011-11-22T13:49:11.433Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "Region" : "us",
+        "TagText" : "adventure"
+      }, {
+        "mtvi:id" : "f58b8bfe-ecfc-11e0-aca6-0026b9414f30",
+        "mtvi:shortId" : "2vow0l",
+        "mtvi:urlKey" : "generic-tag-batman",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-10-04T06:57:55.647Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-02-17T22:21:51.490Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "Region" : "us",
+        "SEOKeywords" : [ "" ],
+        "SysRefs" : [ {
+          "mtvi:contentType" : "Standard:SysRef",
+          "SysName" : "Comedycentral Kramer",
+          "SysDescription" : "BlogEntryTags",
+          "URI" : "116628"
+        } ],
+        "TagText" : "Batman"
+      }, {
+        "mtvi:id" : "64fc7ef6-a415-4021-b1d5-6839cef872ab",
+        "mtvi:shortId" : "6xxlg3",
+        "mtvi:urlKey" : "xb360",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-18T15:42:11.234Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-14T05:45:09.934Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "TagText" : "xb360"
+      }, {
+        "mtvi:id" : "cb86c7b0-13fb-486e-b94b-c5896bb39ca8",
+        "mtvi:shortId" : "mzxfif",
+        "mtvi:urlKey" : "ps3",
+        "mtvi:namespace" : "tags",
+        "mtvi:created" : {
+          "$date" : "2011-05-18T15:42:11.188Z"
+        },
+        "mtvi:updated" : {
+          "$date" : "2012-05-14T05:49:30.191Z"
+        },
+        "mtvi:contentType" : "Standard:Tag",
+        "Language" : "eng",
+        "OrgBucket" : {
+          "mtvi:id" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:shortId" : "ndflgt",
+          "mtvi:urlKey" : "beac3231-1ef1-4b8a-a92d-a4d4e3d225aa",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T22:58:00.194Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:02.633Z"
+          },
+          "mtvi:contentType" : "Standard:OrganizationBucket",
+          "Organizations" : [ {
+            "mtvi:id" : "12c36732-e0c2-4602-a116-7d1aa357643e",
+            "mtvi:shortId" : "ps68av",
+            "mtvi:urlKey" : "Spike",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:03.938Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.563Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Spike.com",
+            "URL" : "Spike.com"
+          }, {
+            "mtvi:id" : "ca26a898-9886-43d5-8579-180a9b233529",
+            "mtvi:shortId" : "2yiemq",
+            "mtvi:urlKey" : "Gametrailers",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:30.117Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.712Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Gametrailers.com",
+            "URL" : "Gametrailers.com"
+          }, {
+            "mtvi:id" : "321fc8e3-cd75-434e-8b79-d1436fe2d0d6",
+            "mtvi:shortId" : "3cskuk",
+            "mtvi:urlKey" : "comedy",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T22:57:48.998Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:34:01.869Z"
+            },
+            "mtvi:contentType" : "Standard:Site",
+            "TypeName" : "Comedy.com",
+            "URL" : "Comedy.com"
+          } ],
+          "TypeName" : "entertainment"
+        },
+        "PlatformBucket" : {
+          "mtvi:id" : "14562291-f450-4839-92da-a02ae821559f",
+          "mtvi:shortId" : "r9m7at",
+          "mtvi:urlKey" : "desktop",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T18:09:14.128Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:34:00.007Z"
+          },
+          "mtvi:contentType" : "Standard:PlatformBucket",
+          "Platforms" : [ {
+            "mtvi:id" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:shortId" : "zc0r0b",
+            "mtvi:urlKey" : "6caa8f01-72e5-4707-abd6-608a0146e2ee",
+            "mtvi:namespace" : "authorities",
+            "mtvi:created" : {
+              "$date" : "2011-06-29T18:09:14.074Z"
+            },
+            "mtvi:updated" : {
+              "$date" : "2012-01-17T16:33:58.400Z"
+            },
+            "mtvi:contentType" : "Standard:Platform",
+            "Description" : "desktop",
+            "TypeName" : "desktop"
+          } ],
+          "TypeName" : "desktop"
+        },
+        "RegionBucket" : {
+          "mtvi:id" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:shortId" : "y71w95",
+          "mtvi:urlKey" : "93c77a8e-d7ec-45ea-a805-d8f83a5e801a",
+          "mtvi:namespace" : "authorities",
+          "mtvi:created" : {
+            "$date" : "2011-06-29T23:00:23.113Z"
+          },
+          "mtvi:updated" : {
+            "$date" : "2012-01-17T16:33:50.279Z"
+          },
+          "mtvi:contentType" : "Standard:RegionBucket",
+          "Regions" : [ "US" ],
+          "TypeName" : "US"
+        },
+        "TagText" : "ps3"
+      } ],
+      "Title" : "Batman: Arkham Asylum",
+      "Website" : "http://www.batmanarkhamasylum.com"
+    } ]
+  },
+  "summary" : {
+    "status" : 200,
+    "host" : "shared-crx-005.1515.mtvi.com",
+    "started" : "2012-09-19T09:59:13.168Z",
+    "executionTime" : 47,
+    "params" : {
+      "timeTravel" : "2012-04-04T04:00:00.000Z",
+      "indent" : true,
+      "q" : {
+        "select" : {
+          "Description" : 1,
+          "EditorialRating" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "ESRBCertificate" : 1,
+          "Genres" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "Images" : {
+            "*" : {
+              "*" : {
+                "*" : {
+                  "*" : {
+                    "*" : {
+                      "*" : {
+                        "*" : {
+                          "*" : {
+                            "*" : 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "Keywords" : 1,
+          "Language" : 1,
+          "mtvi:contentType" : 1,
+          "mtvi:external" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "mtvi:id" : 1,
+          "mtvi:shortId" : 1,
+          "mtvi:urlKey" : 1,
+          "OriginalPublishDate" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "People" : {
+            "*" : {
+              "*" : {
+                "*" : {
+                  "*" : {
+                    "*" : {
+                      "*" : {
+                        "*" : {
+                          "*" : 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "PhotoGalleries" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "Pigeonholes" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "Ratings" : {
+            "*" : {
+              "*" : {
+                "*" : {
+                  "*" : {
+                    "*" : {
+                      "*" : {
+                        "*" : {
+                          "*" : {
+                            "*" : {
+                              "*" : {
+                                "*" : 1
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "SEODescription" : 1,
+          "SEOKeywords" : 1,
+          "SEOLinks" : {
+            "*" : {
+              "*" : {
+                "*" : 1
+              }
+            }
+          },
+          "SEOTitle" : 1,
+          "ShortDescription" : 1,
+          "ShortTitle" : 1,
+          "SortTitle" : 1,
+          "SysRefs" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "Tags" : {
+            "*" : {
+              "*" : {
+                "*" : {
+                  "*" : 1
+                }
+              }
+            }
+          },
+          "Title" : 1,
+          "Version" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "VideoGame" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "VideoGameReleases" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "Videos" : {
+            "*" : {
+              "*" : 1
+            }
+          },
+          "Website" : 1,
+          "*" : 1
+        },
+        "vars" : {
+        },
+        "where" : {
+          "byId" : [ "e5e2219e-cdf1-4ba5-a320-b3be16c6b60e" ]
+        },
+        "start" : 0,
+        "rows" : 1,
+        "omitNumFound" : true,
+        "debug" : {
+        }
+      },
+      "dateFormat" : "UTC",
+      "stage" : "authoring",
+      "plugin.timeTravel" : "2012-04-04T04:00:00.000Z",
+      "filterSchedules" : true
+    },
+    "scheduleTTL" : null
+  }
+}

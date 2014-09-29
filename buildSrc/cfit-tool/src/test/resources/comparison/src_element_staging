@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<package version="1.4"> 
+   <video> 
+      <item> 
+         <rendition bitrate="450" cdn="aaaa" duration="50" height="288" type="video/mp4"
+                    width="512"> 
+            <src>bbbb</src> 
+         </rendition> 
+         <rendition bitrate="640" cdn="limelight" duration="50" height="432" type="video/mp4"
+                    width="768"> 
+            <src>rtmpe://viacom.fcod.llnwd.net/a3951/e19/gsp.comedystor/com/dailyshow/TDS/season_15/episode_085/ds_15085_act4_768x432_640.mp4</src> 
+         </rendition> 
+         <rendition bitrate="960" cdn="akamai" duration="50" height="432" type="video/mp4"
+                    width="768"> 
+            <src>rtmpe://cp9950.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/dailyshow/TDS/season_15/episode_085/ds_15085_act4_768x432_960.mp4</src> 
+         </rendition> 
+         <rendition bitrate="1300" cdn="akamai" duration="50" height="432" type="video/mp4"
+                    width="768"> 
+            <src>rtmpe://cp9950.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/dailyshow/TDS/season_15/episode_085/ds_15085_act4_768x432_1300.mp4</src> 
+         </rendition> 
+         <rendition bitrate="1720" cdn="akamai" duration="50" height="432" type="video/mp4"
+                    width="768"> 
+            <src>rtmpe://cp9950.edgefcs.net/ondemand/mtvnorigin/gsp.comedystor/com/dailyshow/TDS/season_15/episode_085/ds_15085_act4_768x432_1720.mp4</src> 
+         </rendition> 
+      </item> 
+   </video> 
+</package><!-- Date Generated: Fri Jan 28 12:19:11 EST 2011 -->

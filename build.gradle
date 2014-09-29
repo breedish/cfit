@@ -1,0 +1,182 @@
+import com.mtvi.cfit.*
+
+defaultTasks 'initLogs', 'run', 'compare'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+allprojects {
+    apply plugin: 'maven'
+
+    repositories {
+        if (!project.hasProperty('maven.repo.remote.only')) {
+            mavenLocal()
+        }
+        maven {
+            url "http://buildtools.mtvitech.com/nexus/content/groups/public"
+            credentials {
+                username mtvnproximityUser
+                password mtvnproximityPassword
+            }
+        }
+        mavenCentral()
+    }
+}
+
+buildscript {
+    repositories {
+        if (!project.hasProperty('maven.repo.remote.only')) {
+            mavenLocal()
+        }
+        maven {
+            url "http://buildtools.mtvitech.com/nexus/content/groups/public"
+            credentials {
+                username mtvnproximityUser
+                password mtvnproximityPassword
+            }
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.gradle.api.plugins:gradle-cargo-plugin:0.6.2-custom-3'
+    }
+}
+
+allprojects {
+    configurations {
+        scp
+    }
+}
+
+ext {
+    jbossDir = "$buildDir/jboss"
+    logsDir = "$buildDir/logs"
+    queriesDir = "$buildDir/queries/jp"
+}
+
+dependencies {
+    scp 'org.apache.ant:ant-jsch:1.7.1'
+}
+
+task initLogs(group : 'cfit', description: 'Downloads logs with queries to be run.') << {
+    file(logsDir).mkdirs()
+    ant.taskdef(name: 'scp', classname: 'org.apache.tools.ant.taskdefs.optional.ssh.Scp', classpath: configurations.scp.asPath)
+    ant.scp(file: "$mtvnproximityUser:$mtvnproximityPassword@$logsRemoteDir/*", todir: logsDir)
+
+    file(queriesDir).mkdirs()
+    file(logsDir).listFiles().each {
+        ant.gunzip(src: it, dest: queriesDir)
+    }
+}
+
+task compare(type: CompareTask, group: 'cfit', description: 'Does comparison of responses. Builds comparison report.') {
+    originalResultsDirName = project(':original').buildDir.absolutePath + "/responses"
+    rcResultsDirName = project(':rc').buildDir.absolutePath + "/responses"
+    rcVersion = project(':rc').caslVersion
+    originalVersion = project(':original').caslVersion
+}
+
+subprojects {
+    apply plugin: 'cargo'
+
+    ext {
+        earDir = "$buildDir/ear"
+        responseDirName = "$buildDir/responses"
+    }
+
+    configurations {
+        appserver
+        appartifact
+    }
+
+    dependencies {
+        def cargoVersion = '1.4.4'
+        cargo "org.codehaus.cargo:cargo-core-uberjar:$cargoVersion",
+                "org.codehaus.cargo:cargo-ant:$cargoVersion"
+        appserver group: 'org.jboss.jbossas', name: 'jboss-as-dist', version:'4.2.3.GA-mtvn-arc-test.1', ext: 'zip'
+        appartifact group: 'com.mtvi.ucsa.osiris2', name: 'osiris2-mongodb-ear', version: caslVersion, ext: 'ear'
+    }
+
+    task initAppServer(type: Copy, group: 'cfit', description: 'Initializes local JBoss.') {
+        from zipTree(configurations.appserver.singleFile)
+        into jbossDir
+    }
+
+    cargo {
+        def jbossHttpPort = 13142
+        def jbossJndiPort = 13182
+        def jbossRmiPort = 13192
+
+        containerId = 'jboss42x'
+        port = jbossHttpPort
+
+        deployable {
+            file = file("$earDir/osiris2-mongodb-ear-$caslVersion" + ".ear")
+        }
+
+        local {
+            homeDir = file("./")
+
+            jvmArgs = '-Xms1024m -Xmx1024m' +
+                    " -Dmtvi.tomcat.binding=$jbossHttpPort" +
+                    " -Dmtvi.jndi.port=$jbossJndiPort" +
+                    " -Dmtvi.rmi.port=$jbossRmiPort" +
+                    ' -Dmtvi.jmxremote.port=13172' +
+                    ' -Dmtvi.rmiobject.port=13122' +
+                    ' -Dmtvi.remoting.port=13162' +
+                    ' -Djboss.bind.address=0.0.0.0' +
+                    " -Dmtvi.mongo.replica.set=$mongoConnection" +
+                    " -Dmtvi.mongo.replica.set.default=$mongoConnection" +
+                    ' -Dmtvi.mongo.enable.sites.coll=true' +
+                    ' -Dstage=local' +
+                    ' -Dinstance=publish' +
+                    ' -Dmtvi.content.collection.master.index.filename=/index/master-collection.index' +
+                    ' -Dmtvi.content.collection.merged.index.filename=/index/site-merged-collection.index' +
+                    ' -Dmtvi.content.collection.publishrequest.index.filename=/index/publish-request-collection.index' +
+                    ' -Dmtvi.content.collection.publishset.index.filename=/index/publish-set-collection.index' +
+                    ' -Dmtvi.content.collection.systembucket.index.filename=/index/system-bucket-collection.index' +
+                    ' -Dmtvi.content.collection.task.index.filename=/index/task-collection.index' +
+                    ' -Dmtvi.content.collection.version.index.filename=/index/version-collection.index' +
+                    ' -Dmtvi.content.collection.archive.index.filename=/index/archive-collection.index' +
+                    ' -Dlog4j.configuration=file:' + file('config/log4j.properties').absolutePath
+            jboss {
+                namingPort = jbossJndiPort
+                rmiPort = jbossRmiPort
+                invokerPoolPort = 13942
+                jrmpInvokerPort = 13122
+                configuration = 'mongo-test'
+            }
+        }
+    }
+
+    task copyEar(type: Copy, group: 'cfit') {
+        inputs.file configurations.appartifact
+        outputs.dir earDir
+
+        into earDir
+        from configurations.appartifact
+    }
+
+    task runQueries(type: QueriesTask, group: 'cfit', description: 'Does execution of queries and does pre processing of responses.') {
+        responseDir = responseDirName
+    }
+
+    task run(group: 'cfit', description: 'Does full phase execution: Starts JBoss instance with needed CASL artifact version, runs queries, stops JBoss instance. ') << {
+        cargo {
+            local {
+                homeDir = files(file(jbossDir).listFiles()).singleFile
+            }
+        }
+
+        cargoStartLocal.execute()
+        runQueries.execute()
+        cargoStopLocal.execute()
+    }
+
+    run.dependsOn initAppServer, copyEar
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = "1.8"
+}

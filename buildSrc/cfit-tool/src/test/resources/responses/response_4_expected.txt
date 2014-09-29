@@ -1,0 +1,45 @@
+http://udat.mtvnservices-d.mtvi.com/service1/dispatchnocache.htm?tid=1672&plugin.stage=authoring&mgid=mgid:arc:content:spike.com:?query%28%28%20_id=%20%270fef1f99-62bd-48c7-b334-09c1565ebd6a%27OR%20_id=%20%2758913b8f-ce2c-4803-acca-c498df3121fc%27OR%20_id=%20%2774387649-acaa-41b7-b6ce-92d74a8c352b%27OR%20_id=%20%2776cfa11e-f5d4-4e59-825a-1c562d40382a%27OR%20_id=%20%2787ecd122-a5d3-498f-b00a-812ece6662e5%27OR%20_id=%20%278ef383e8-bba3-44e5-817d-bc83ddd2ef49%27OR%20_id=%20%27dd2fbada-31ee-4e34-8e61-9b1cc0cb9bac%27OR%20_id=%20%27eca51e9c-46e1-4b36-8fea-818afab0f5ac%27%29,@size=8%29&depth=0&plugin.env=CFIT2
+
+<xcql>
+	<object content-uri="mgid:arc:content:spike.com:?query(( _id= '0fef1f99-62bd-48c7-b334-09c1565ebd6a'OR _id= '58913b8f-ce2c-4803-acca-c498df3121fc'OR _id= '74387649-acaa-41b7-b6ce-92d74a8c352b'OR _id= '76cfa11e-f5d4-4e59-825a-1c562d40382a'OR _id= '87ecd122-a5d3-498f-b00a-812ece6662e5'OR _id= '8ef383e8-bba3-44e5-817d-bc83ddd2ef49'OR _id= 'dd2fbada-31ee-4e34-8e61-9b1cc0cb9bac'OR _id= 'eca51e9c-46e1-4b36-8fea-818afab0f5ac'),@size=8)" object-key="0">
+		<collection size="8" start="0" total="8">
+			<field id="innerMgid" name="innerMgid" value="mgid:arc:content:spike.com:0fef1f99-62bd-48c7-b334-09c1565ebd6a" visible="true"/>
+			<field id="innerMgid" name="innerMgid" value="mgid:arc:content:spike.com:58913b8f-ce2c-4803-acca-c498df3121fc" visible="true"/>
+			<field id="innerMgid" name="innerMgid" value="mgid:arc:content:spike.com:74387649-acaa-41b7-b6ce-92d74a8c352b" visible="true"/>
+			<object content-uri="mgid:arc:content:spike.com:0fef1f99-62bd-48c7-b334-09c1565ebd6a" object-key="1">
+				<field field-type="object" id="Items" name="Items" visible="true">
+					<object content-uri="mgid:arc:content:spike.com:ccf804a9-c5f4-4138-a28e-d5f5c73f80fd"/>
+				</field>
+				<field id="Title" name="Title" value="Movies" visible="true"/>
+				<field id="content-type" name="content-type" value="Site:Hierarchy" visible="true"/>
+				<field id="mgid" name="mgid" value="mgid:arc:content:spike.com:0fef1f99-62bd-48c7-b334-09c1565ebd6a" visible="true"/>
+				<field id="short-id" name="short-id" value="74xqmk" visible="true"/>
+				<field id="url-key" name="url-key" value="movies" visible="true"/>
+				<field id="uuid" name="uuid" value="0fef1f99-62bd-48c7-b334-09c1565ebd6a" visible="true"/>
+			</object>
+			<object content-uri="mgid:arc:content:spike.com:58913b8f-ce2c-4803-acca-c498df3121fc" object-key="1">
+				<field id="Description" name="Description" value="Viral Videos Channel" visible="true"/>
+				<field field-type="object" id="Items" name="Items" visible="true">
+					<object content-uri="mgid:arc:content:spike.com:bbd0db52-1947-4309-80d9-0a2c3c4aa656"/>
+				</field>
+				<field id="Title" name="Title" value="Viral" visible="true"/>
+				<field id="content-type" name="content-type" value="Site:Hierarchy" visible="true"/>
+				<field id="mgid" name="mgid" value="mgid:arc:content:spike.com:58913b8f-ce2c-4803-acca-c498df3121fc" visible="true"/>
+				<field id="short-id" name="short-id" value="wxa5a3" visible="true"/>
+				<field id="url-key" name="url-key" value="viral" visible="true"/>
+				<field id="uuid" name="uuid" value="58913b8f-ce2c-4803-acca-c498df3121fc" visible="true"/>
+			</object>
+			<object content-uri="mgid:arc:content:spike.com:74387649-acaa-41b7-b6ce-92d74a8c352b" object-key="1">
+				<field field-type="object" id="Items" name="Items" visible="true">
+					<object content-uri="mgid:arc:content:spike.com:a93b9fa0-c352-41e6-ab0f-f33a38729949"/>
+				</field>
+				<field id="Title" name="Title" value="Music" visible="true"/>
+				<field id="content-type" name="content-type" value="Site:Hierarchy" visible="true"/>
+				<field id="mgid" name="mgid" value="mgid:arc:content:spike.com:74387649-acaa-41b7-b6ce-92d74a8c352b" visible="true"/>
+				<field id="short-id" name="short-id" value="u9xvb6" visible="true"/>
+				<field id="url-key" name="url-key" value="music" visible="true"/>
+				<field id="uuid" name="uuid" value="74387649-acaa-41b7-b6ce-92d74a8c352b" visible="true"/>
+			</object>
+		</collection>
+	</object>
+</xcql>

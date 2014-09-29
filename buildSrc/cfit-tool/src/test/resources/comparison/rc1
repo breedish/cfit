@@ -1,0 +1,41 @@
+http://shared-crx-005.1515.mtvi.com:12042/jp/indecisionforever.com?&q=%7B%22select%22%3A%7B%22mtvi%3Aid%22%3A1%7D%2C%22vars%22%3A%7B%7D%2C%22where%22%3A%7B%22byTypeAndEpisode%22%3A%5B%22Standard%3AVideoPlaylist%22%2C%20%22be7f90b4-2547-11e1-aca6-0026b9414f30%22%5D%7D%2C%22start%22%3A0%2C%22rows%22%3A1%2C%22omitNumFound%22%3Afalse%2C%22debug%22%3A%7B%20%20%7D%7D&stage=authoring&filterSchedules=true&dateFormat=UTC&__crabappleFeedCacheBust=3853069143e184de2380265a31c8f91cd29c20ad&indent=true&plugin.timeTravel=2011-12-27T04:00:00.000Z&timeTravel=2011-12-27T04:00:00.000Z
+{
+  "response" : {
+    "numFound" : 2,
+    "start" : 0,
+    "docs" : [ {
+      "mtvi:id" : "0e6eeaa8-2565-11e1-aca6-0026b9414f30"
+    } ]
+  },
+  "summary" : {
+    "status" : 200,
+    "host" : "shared-crx-005.1515.mtvi.com",
+    "started" : "2011-12-28T05:22:09.521Z",
+    "executionTime" : 4,
+    "params" : {
+      "timeTravel" : "2011-12-27T04:00:00.000Z",
+      "indent" : true,
+      "q" : {
+        "select" : {
+          "mtvi:id" : 1
+        },
+        "vars" : {
+        },
+        "where" : {
+          "byTypeAndEpisode" : [ "Standard:VideoPlaylist", "be7f90b4-2547-11e1-aca6-0026b9414f30" ]
+        },
+        "start" : 0,
+        "rows" : 1,
+        "omitNumFound" : false,
+        "debug" : {
+        }
+      },
+      "dateFormat" : "UTC",
+      "__crabappleFeedCacheBust" : "3853069143e184de2380265a31c8f91cd29c20ad",
+      "stage" : "authoring",
+      "plugin.timeTravel" : "2011-12-27T04:00:00.000Z",
+      "filterSchedules" : true
+    },
+    "scheduleTTL" : null
+  }
+}

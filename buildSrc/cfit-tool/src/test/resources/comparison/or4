@@ -1,0 +1,22 @@
+http://shared-crx-005.1515.mtvi.com:12042/jp/comedycentral.com?&q=%7B%22select%22%3A%7B%22mtvi%3Aid%22%3A1%7D%2C%22vars%22%3A%7B%7D%2C%22where%22%3A%7B%22byTypeAndSysRef%22%3A%5B%22Standard%3AShowVideo%22%2C%20%22Comedycentral%20Kramer%22%2C%20%5B%22164882%22%22%5D%5D%7D%2C%22start%22%3A0%2C%22rows%22%3A99999%2C%22omitNumFound%22%3Afalse%2C%22debug%22%3A%7B%20%20%7D%7D&stage=live&filterSchedules=true&dateFormat=UTC&indent=true&plugin.timeTravel=2012-04-04T04:00:00.000Z&timeTravel=2012-04-04T04:00:00.000Z
+{
+  "summary" : {
+    "status" : 500,
+    "error" : {
+      "description" : "Incorrect formed JSON query has been passed [json={\"select\":{\"mtvi:id\":1},\"vars\":{},\"where\":{\"byTypeAndSysRef\":[\"Standard:ShowVideo\", \"Comedycentral Kramer\", [\"164882\"\"]]},\"start\":0,\"rows\":99999,\"omitNumFound\":false,\"debug\":{  }}]"
+    },
+    "host" : "shared-crx-005.1515.mtvi.com",
+    "started" : "2012-09-20T13:30:55.274Z",
+    "executionTime" : 2,
+    "params" : {
+      "timeTravel" : "2012-04-04T04:00:00.000Z",
+      "indent" : true,
+      "q" : "{\"select\":{\"mtvi:id\":1},\"vars\":{},\"where\":{\"byTypeAndSysRef\":[\"Standard:ShowVideo\", \"Comedycentral Kramer\", [\"164882\"\"]]},\"start\":0,\"rows\":99999,\"omitNumFound\":false,\"debug\":{  }}",
+      "dateFormat" : "UTC",
+      "stage" : "live",
+      "plugin.timeTravel" : "2012-04-04T04:00:00.000Z",
+      "filterSchedules" : true
+    },
+    "scheduleTTL" : null
+  }
+}

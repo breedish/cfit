@@ -1,0 +1,39 @@
+http://shared-crx-001.1515.mtvi.com:12042/jp/gametrailers.com?&q=%7B%22select%22%3A%7B%22mtvi%3Aid%22%3A1%7D%2C%22vars%22%3A%7B%7D%2C%22where%22%3A%7B%22byTypeAnd3LinkParamsAndExcludeItemsOrderByOriginalPublishDate%22%3A%5B%5B%22Standard%3AVideo%22%5D%2C%20%22285420ba-45d2-49e7-9a01-f8bb8ebdfec6%22%2C%20%5B%22c069590c-e6a7-11e0-9921-a4badb23230a%22%5D%2C%20%5B%226ce327fe-05c1-4ece-9bb2-eab68764cd06%22%5D%2C%20%5B%5D%5D%7D%2C%22start%22%3A0%2C%22rows%22%3A1%2C%22omitNumFound%22%3Atrue%2C%22debug%22%3A%7B%20%20%7D%7D&stage=live&filterSchedules=true&dateFormat=UTC&indent=true&plugin.timeTravel=2013-07-30T04:00:00.000Z&timeTravel=2013-07-30T04:00:00.000Z
+{
+  "response" : {
+    "start" : 0,
+    "docs" : [ {
+      "mtvi:id" : "83c6f7d6-9a33-44b9-af1c-124c26e9fb76"
+    } ]
+  },
+  "summary" : {
+    "status" : 200,
+    "host" : "shared-crx-001.1515.mtvi.com",
+    "started" : "2013-10-01T03:22:00.605Z",
+    "executionTime" : 234,
+    "params" : {
+      "timeTravel" : "2013-07-30T04:00:00.000Z",
+      "indent" : true,
+      "q" : {
+        "select" : {
+          "mtvi:id" : 1
+        },
+        "vars" : {
+        },
+        "where" : {
+          "byTypeAnd3LinkParamsAndExcludeItemsOrderByOriginalPublishDate" : [ [ "Standard:Video" ], "285420ba-45d2-49e7-9a01-f8bb8ebdfec6", [ "c069590c-e6a7-11e0-9921-a4badb23230a" ], [ "6ce327fe-05c1-4ece-9bb2-eab68764cd06" ], [ ] ]
+        },
+        "start" : 0,
+        "rows" : 1,
+        "omitNumFound" : true,
+        "debug" : {
+        }
+      },
+      "dateFormat" : "UTC",
+      "stage" : "live",
+      "plugin.timeTravel" : "2013-07-30T04:00:00.000Z",
+      "filterSchedules" : true
+    },
+    "scheduleTTL" : null
+  }
+}

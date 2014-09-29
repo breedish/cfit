@@ -1,0 +1,7 @@
+<execution-result count="7" exceptions="2" failures="2" success="3" total="11">
+    <groups>
+        <group max="5" min="5" size="3787" status="503" totalTime="5"/>
+        <group max="18" min="7" size="46" status="404" totalTime="5"/>
+        <group max="1911" min="4" size="42502" status="200" totalTime="45"/>
+    </groups>
+</execution-result>

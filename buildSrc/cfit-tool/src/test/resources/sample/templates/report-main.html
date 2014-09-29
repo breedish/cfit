@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CFIT Report ${model.creationDate?datetime}}</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/tablesorter/2.0.5b/jquery.tablesorter.min.js"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<style>
+    .navbar .navbar-brand {
+        float: left;
+        display: block;
+        margin-left: -20px;
+        font-size: 20px;
+        font-weight: 200;
+        color: #777777;
+        text-shadow: 0 1px 0 #ffffff;
+    }
+
+    .navbar {
+        border: 1px solid #d4d4d4;
+        -webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
+        -moz-box-shadow: 0 0 20px rgba(0,0,0,.1);
+        box-shadow: 0 0 20px rgba(0,0,0,.1);
+    }
+
+    .badge-important {
+        background-color:#d9534f;
+    }
+
+    .badge-warning {
+        background-color:#f0ad4e;
+    }
+
+    .report {
+        padding: 60px 50px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .section-name {
+        text-transform: uppercase;
+        letter-spacing: 0.20em;
+        margin: 0;
+        color: #2b2b2b;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.17em;
+        font-size: 18pt;
+        vertical-align: baseline;
+        white-space: normal;
+    }
+
+    * {
+        font-family: Open Sans;
+    }
+</style>
+
+<div class="row">
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header col-md-9">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CFIT Report
+                    <small><date>${model.creationDate?datetime}</date></small>.
+                </a>
+                <span style="position: relative; top: 5px" class="label label-success">${model.originalVersion!}</span>
+                <span style="position: relative; top: 5px"> - </span>
+                <span style="position: relative; top: 5px" class="label <#if model.success>label-success<#else>label-danger</#if>">${model.rcVersion!}</span>
+                <span style="position: relative; top: 5px" class="label <#if model.success>label-success<#else>label-danger</#if>">${model.reportState.getName()}</span>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Go To <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#differences">Differences</a></li>
+                            <li><a href="#failedQueries">Failed Queries</a></li>
+                            <li><a href="#onlyOriginalResponses">Only Original Queries</a></li>
+                            <li><a href="#onlyRCResponses">Only RC Queries</a></li>
+                            <!--<li><a href="#slow">Slow Queries</a></li>-->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="report">
+<div class="container col-md-12">
+    <section class="col-md-5" id="performance">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+                <th><h4>Performance metrics</h4></th>
+                <th><h5>ORIGINAL</h5></th>
+                <th><h5>RC</h5></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Avg Response Time <small>(ms)</small></td>
+                <td>${model.originalPerformanceStats.avg}</td>
+                <td>${model.rcPerformanceStats.avg}</td>
+            </tr>
+            <tr>
+                <td>Min Response Time <small>(ms)</small></td>
+                <td>${model.originalPerformanceStats.min}</td>
+                <td>${model.rcPerformanceStats.min}</td>
+            </tr>
+            <tr>
+                <td>Max Response Time <small>(ms)</small></td>
+                <td>${model.originalPerformanceStats.max}</td>
+                <td>${model.rcPerformanceStats.max}</td>
+            </tr>
+            <tr>
+                <td>SUCCESSFUL Responses</td>
+                <td>${model.originalPerformanceStats.success}</td>
+                <td>${model.rcPerformanceStats.success}</td>
+            </tr>
+            <tr>
+                <td>FAILED Responses</td>
+                <td><span class="badge badge-warning">${model.originalPerformanceStats.failed}</span></td>
+                <td><span class="badge badge-warning">${model.rcPerformanceStats.failed}</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="col-md-3"  id="table-of-contents">
+        <header>
+            <h3><span class="glyphicon glyphicon-book"> Report Sections </span></h3>
+        </header>
+        <ol>
+            <li><h5><a href="#differences">Differences</a></h5></li>
+            <li><h5><a href="#failedQueries">Failed Queries</a></h5></li>
+            <li><h5><a href="#onlyOriginalResponses">Only Original Queries</a></h5></li>
+            <li><h5><a href="#onlyRCResponses">Only RC Queries</a></h5></li>
+            <!--<li><h5><a href="#slow">Slow Queries</a></h5></li>-->
+        </ol>
+    </section>
+    <section class="col-md-4" id="comparison-stats">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+            <tr>
+                <th colspan="6"><h4>Comparison stats</h4></th>
+            </tr>
+            <tr>
+                <th><h5>Differences</h5></th>
+                <th><h5>Similar</h5></th>
+                <th><h5>Identical</h5></th>
+                <th><h5>Only Original</h5></th>
+                <th><h5>Only RC</h5></th>
+                <th><h5>Slow Queries</h5></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="badge badge-important">${model.comparisonStats.different!0}</span></td>
+                <td>${model.comparisonStats.similar!0}</td>
+                <td>${model.comparisonStats.identical!0}</td>
+                <td><span class="badge badge-important">${model.comparisonStats.onlyOriginal!0}</span></td>
+                <td><span class="badge badge-important">${model.comparisonStats.onlyRC!0}</span></td>
+                <td><span class="badge badge-warning">${model.performanceQueries?size!0}</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+
+<#if (model.differences?? && (model.differences?size>0)) >
+<div class="col-md-12" id="differences">
+    <header>
+        <h4 class="section-name">Differences</h4>
+    </header>
+
+    <section>
+        <div class="list-group">
+        <#list model.differences as diff>
+            <a href="${diff.path.name}" class="list-group-item">View Differences ${diff.name} <span class="badge badge-important">${diff.name}</span></a>
+        </#list>
+        </div>
+    </section>
+</div>
+</#if>
+
+<#if (model.failedQueries?? && (model.failedQueries?size>0)) >
+    <div class="col-md-12" id="failedQueries">
+        <header>
+            <h4 class="section-name">Failed Queries</h4>
+        </header>
+
+        <section>
+            <div class="list-group">
+                <#list model.failedQueries as failed>
+                    <a href="${failed.path.name}" class="list-group-item">View Failed Queries ${failed.name} <span class="badge badge-important">${failed.name}</span></a>
+                </#list>
+            </div>
+        </section>
+    </div>
+</#if>
+
+<#if (model.onlyOriginalResponses?? && (model.onlyOriginalResponses?size>0)) >
+    <div class="col-md-12" id="onlyOriginalResponses">
+        <header>
+            <h4 class="section-name">Only Original Queries</h4>
+        </header>
+
+        <section>
+            <div class="list-group">
+                <#list model.onlyOriginalResponses as q>
+                    <a href="${q.path.name}" class="list-group-item">View Only Original ${q.name} <span class="badge badge-important">${q.name}</span></a>
+                </#list>
+            </div>
+        </section>
+    </div>
+</#if>
+
+<#if (model.onlyRCResponses?? && (model.onlyRCResponses?size>0)) >
+    <div class="col-md-12" id="onlyRCResponses">
+        <header>
+            <h4 class="section-name">Only RC Queries</h4>
+        </header>
+
+        <section>
+            <div class="list-group">
+                <#list model.onlyRCResponses as q>
+                    <a href="${q.path.name}" class="list-group-item">View Only RC ${q.name} <span class="badge badge-important">${q.name}</span></a>
+                </#list>
+            </div>
+        </section>
+    </div>
+</#if>
+
+
+</section>

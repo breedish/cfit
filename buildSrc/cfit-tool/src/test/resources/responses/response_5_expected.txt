@@ -1,0 +1,25 @@
+http://udat.mtvnservices-d.mtvi.com/service1/dispatchnocache.htm?tid=1672&plugin.environment=live&mgid=mgid:arc:content:spike.com:62e563d0-0ca3-440c-89cc-58f8f6d2c188&depth=1&plugin.env=CFIT2
+
+<xcql>
+	<object content-uri="mgid:arc:content:spike.com:62e563d0-0ca3-440c-89cc-58f8f6d2c188" object-key="0">
+		<field id="innerMgid" name="innerMgid" value="mgid:arc:content:spike.com:62e563d0-0ca3-440c-89cc-58f8f6d2c188" visible="true"/>
+		<object content-uri="mgid:arc:content:spike.com:62e563d0-0ca3-440c-89cc-58f8f6d2c188" object-key="1">
+			<field id="Language" name="Language" value="eng" visible="true"/>
+			<field id="Region" name="Region" value="us" visible="true"/>
+			<field id="SEODescription" name="SEODescription" value="GTTV" visible="true"/>
+			<field id="SEOKeywords" name="SEOKeywords" visible="true">
+				<collection>
+					<value>Test 1</value>
+					<value>Test 2</value>
+					<value>Test 3</value>
+				</collection>
+			</field>
+			<field id="SEOTitle" name="SEOTitle" value="Act III" visible="true"/>
+			<field id="content-type" name="content-type" value="Standard:ShowVideo" visible="true"/>
+			<field id="mgid" name="mgid" value="mgid:arc:content:spike.com:62e563d0-0ca3-440c-89cc-58f8f6d2c188" visible="true"/>
+			<field id="short-id" name="short-id" value="mge8ox" visible="true"/>
+			<field id="url-key" name="url-key" value="62e563d0-0ca3-440c-89cc-58f8f6d2c188" visible="true"/>
+			<field id="uuid" name="uuid" value="62e563d0-0ca3-440c-89cc-58f8f6d2c188" visible="true"/>
+		</object>
+	</object>
+</xcql><!-- Date Generated: Fri Apr 22 08:47:07 EDT 2011 -->

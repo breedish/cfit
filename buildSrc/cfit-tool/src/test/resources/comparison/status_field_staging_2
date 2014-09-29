@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xcql>
+    <collection size="4" start="0" total="4">
+        <object content-uri="mgid:jcr:content:comedycentral-tve:fc4985cb-0906-49e8-a3b7-5e7eac9e0a64"
+              object-key="0">
+            <field id="content-type" name="content-type" value="Standard:GenericItemCollection"
+                visible="true"/>
+            <field id="uuid" name="uuid" value="fc4985cb-0906-49e8-a3b7-5e7eac9e0a64"
+                visible="true"/>
+            <field id="mgid" name="mgid"
+                value="mgid:jcr:content:comedycentral-tve:fc4985cb-0906-49e8-a3b7-5e7eac9e0a64"
+                visible="true"/>
+            <field id="url-key" name="url-key" value="the-daily-show" visible="true"/>
+            <field id="short-id" name="short-id" value="aDvnkYQo" visible="true"/>
+            <field id="status" name="status" value="DEFAULT" visible="true"/>
+            <field id="Title" name="Title" value="The Daily Show -- Full Episodes live on site"
+                visible="true"/>
+            <field id="Items" name="Items" visible="true">
+                <collection>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:08ce8140-7a91-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="08ce8140-7a91-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:08ce8140-7a91-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16014" visible="true"/>
+                        <field id="short-id" name="short-id" value="ykR28Ai8" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 25, 2011 - James Franco" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 25, 2011 - James Franco"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="John Oliver reports on Rahm Emanuel's residency requirements from Chicago, a local Indianapolis reporter conducts a homeless talent show, and Jon composes an ode to James Franco's Oscar nomination."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="A reporter searches for homeless talent, and Jon composes an ode to James Franco's Oscar nomination."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:08c927a4-7a91-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:08baebee-7a91-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:a8b538c0-fc15-102d-8eff-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:0813c558-7a91-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:083a4e6c-7a91-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:08761a50-7a91-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:08aca41c-7a91-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Tue Jan 25 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16014" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Wed Jan 26 01:38:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Wed Feb 23 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:2abe5df2-76a4-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="2abe5df2-76a4-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:2abe5df2-76a4-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16012" visible="true"/>
+                        <field id="short-id" name="short-id" value="wDp9Rqsd" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title"
+                         value="January 20, 2011 - Kambiz Hosseini &amp; Saman Arbabi"
+                         visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle"
+                         value="January 20, 2011 - Kambiz Hosseini &amp; Saman Arbabi"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Hu Jintao arrives in D.C., and Jason Jones stands by the U.S.'s stealth fighter jet in a super secret location. Steve Cohen compares Republicans to Nazis, and Kambiz Hosseini and Saman Arbabi call Jon a prophet."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Steve Cohen compares Republicans to Nazis, and Kambiz Hosseini and Saman Arbabi call Jon a prophet."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:2ab81ab4-76a4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:2a7e446a-76a4-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:29c61dea-76a4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:2a14fdd4-76a4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:2a3e722c-76a4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:2a6bca42-76a4-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Thu Jan 20 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16012" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Fri Jan 21 01:45:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Fri Feb 18 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:632a8fcc-75e0-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="632a8fcc-75e0-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:632a8fcc-75e0-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16011" visible="true"/>
+                        <field id="short-id" name="short-id" value="CD39gUN3" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 19, 2011 - Paul Clemens" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 19, 2011 - Paul Clemens"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Jon offers Glenn Beck a present, Jean-Claude Duvalier returns to Haiti, and the Tunisian government falls. States face budget shortfalls, and Paul Clemens discusses blue-collar decline."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Glenn Beck appears on the &#34;Today&#34; show, and Paul Clemens discusses blue-collar decline."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:6324e40a-75e0-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:63192098-75e0-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:62657c32-75e0-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:6290b438-75e0-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:62e26dbe-75e0-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:630b82ee-75e0-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Wed Jan 19 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16011" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Thu Jan 20 02:23:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Thu Feb 17 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:8ceff624-7510-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="8ceff624-7510-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:8ceff624-7510-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16010" visible="true"/>
+                        <field id="short-id" name="short-id" value="zD29dLAC" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 18, 2011 - Neil deGrasse Tyson"
+                         visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle"
+                         value="January 18, 2011 - Neil deGrasse Tyson"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Jon promises Sarah Palin a classy conversation, Jason Jones needs to get rid of his Leo tramp stamp, and Neil deGrasse Tyson explores the next generation of discoveries."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Jon promises Sarah Palin a classy conversation and reveals his love for Neil deGrasse Tyson."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:8cea1538-7510-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:8cdbccc6-7510-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:8c48b18e-7510-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:8c7028a4-7510-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:8c990256-7510-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:8ccb6444-7510-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Tue Jan 18 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16010" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Wed Jan 19 01:36:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Wed Feb 16 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:c67f457a-7448-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="c67f457a-7448-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:c67f457a-7448-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16009" visible="true"/>
+                        <field id="short-id" name="short-id" value="QDugcAss" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 17, 2011 - Peter Bergen" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 17, 2011 - Peter Bergen"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Republicans and Democrats agree to sit together for two hours, Michael Steele steps down as RNC chairman, and Peter Bergen provides a glimmer of optimism about progress in Afghanistan."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Michael Steele steps down as RNC chairman, and Peter Bergen talks about progress in Afghanistan."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c672480c-7448-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c66263e2-7448-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c5da50ce-7448-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c5fa5b1c-7448-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c62ee29c-7448-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c6521a14-7448-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Mon Jan 17 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16009" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Tue Jan 18 01:46:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Tue Feb 15 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:4f8cb5e2-6ec6-102e-8d94-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="4f8cb5e2-6ec6-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:4f8cb5e2-6ec6-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16005" visible="true"/>
+                        <field id="short-id" name="short-id" value="FDpPVTYU" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 10, 2011 - Denis Leary" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 10, 2011 - Denis Leary"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="John Oliver reports on the Arizona shootings in his panda pajamas. Jason Jones parties with senior citizens in South Florida, and Denis Leary talks about &#34;Suck on This Year.&#34;"
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="John Oliver reports on the Arizona shootings in his PJs, and Denis Leary discusses &#34;Suck on This Year.&#34;"
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4f6a1cb2-6ec6-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4f822154-6ec6-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:cb33d79c-f082-102d-8eff-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4ea381b0-6ec6-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4ece82a2-6ec6-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4f05bba0-6ec6-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4f494ec4-6ec6-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Mon Jan 10 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16005" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Tue Jan 11 01:29:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Tue Feb 08 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:55776548-6fa1-102e-8d94-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="55776548-6fa1-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:55776548-6fa1-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16006" visible="true"/>
+                        <field id="short-id" name="short-id" value="MDZPnUY2" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 11, 2011 - Colin Firth" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 11, 2011 - Colin Firth"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="John Oliver celebrates Verizon's iPhone announcement, Larry Wilmore covers the Huckleberry Finn controversy, and Colin Firth talks about &#34;The King's Speech.&#34;"
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="John Oliver celebrates Verizon's iPhone announcement, and Colin Firth talks about &#34;The King's Speech.&#34;"
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:55597790-6fa1-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:556b8eb2-6fa1-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:7cf1acca-6ff4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:7d2dc2c8-6ff4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:7d6334c6-6ff4-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:7d87c93a-6ff4-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Tue Jan 11 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16006" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Wed Jan 12 13:32:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Wed Feb 09 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:fbdf32a8-705a-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="fbdf32a8-705a-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:fbdf32a8-705a-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16007" visible="true"/>
+                        <field id="short-id" name="short-id" value="qDMPXi7M" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 12, 2011 - Tim Pawlenty" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 12, 2011 - Tim Pawlenty"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Sam Bee and Aasif Mandvi cover Sudan's independence vote, members of Congress introduce gun legislation, and Tim Pawlenty defends Republican rhetoric."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Members of Congress introduce gun legislation, and Tim Pawlenty defends Republican rhetoric."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:fbd847f4-705a-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:fbbf6176-705a-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:fb0ee328-705a-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:fb30e63a-705a-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:fb7e0eba-705a-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:fbadf1c0-705a-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Wed Jan 12 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16007" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Thu Jan 13 01:46:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Thu Feb 10 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:4b0a24e0-7124-102e-b545-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="4b0a24e0-7124-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:4b0a24e0-7124-102e-b545-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16008" visible="true"/>
+                        <field id="short-id" name="short-id" value="eDoPa8wq" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 13, 2011 - Ron Howard" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 13, 2011 - Ron Howard"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="The crowd ruins the Tucson memorial service, John Hodgman makes NASCAR more exciting, and Ron Howard shares his enthusiasm for show business."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="John Hodgman makes NASCAR more exciting, and Ron Howard shares his enthusiasm for show business."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4b031164-7124-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4ae12446-7124-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4a240f8c-7124-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4a51107c-7124-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4aab0f14-7124-102e-b545-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:4acf89b6-7124-102e-b545-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Thu Jan 13 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16008" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Fri Jan 14 01:42:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Fri Feb 11 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:07dc36a0-6949-102e-8d94-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="07dc36a0-6949-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:07dc36a0-6949-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16001" visible="true"/>
+                        <field id="short-id" name="short-id" value="vDWwzrRs" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 03, 2011 - Paul Giamatti" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="Daily Show 16001" visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Dead birds drop from the Arkansas sky, and the media calls Barack Obama the &#34;comeback kid.&#34; Aasif Mandvi investigates San Francisco's ban on Happy Meal toys, and Paul Giamatti says &#34;rapscallion.&#34;"
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="The media calls Barack Obama the &#34;comeback kid,&#34; and Paul Giamatti says &#34;rapscallion.&#34;"
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:07c6c1d0-6949-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:07d1373c-6949-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:cb33d79c-f082-102d-8eff-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:071fe89c-6949-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:074e45a2-6949-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:07701074-6949-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:07ae15fe-6949-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Mon Jan 03 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16001" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Tue Jan 04 01:48:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Tue Feb 01 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:d27821b4-6a0f-102e-8d94-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="d27821b4-6a0f-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:d27821b4-6a0f-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16002" visible="true"/>
+                        <field id="short-id" name="short-id" value="CDBwcBbM" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 04, 2011 - Kirsten Gillibrand"
+                         visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 04, 2011 - Kirsten Gillibrand"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="The RNC holds a debate to pick its next chairman. Republicans focus on 2010 issues, and Kirsten Gillibrand wants to reform the Senate filibuster rules."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Republicans focus on 2010 issues, and Kirsten Gillibrand wants to reform the Senate filibuster rules."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:d25a6660-6a0f-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:d2707d06-6a0f-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:a8b538c0-fc15-102d-8eff-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:d1c24dc6-6a0f-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:d1ee0484-6a0f-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:d21bf718-6a0f-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:d24a2778-6a0f-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Tue Jan 04 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16002" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Wed Jan 05 01:33:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Wed Feb 02 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:75caf0be-6bd5-102e-8d94-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="75caf0be-6bd5-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:75caf0be-6bd5-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16003" visible="true"/>
+                        <field id="short-id" name="short-id" value="6D6Wf3dx" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 05, 2011 - Jimmy Wales" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 05, 2011 - Jimmy Wales"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Robert Gibbs leaves the White House, and John McCain's old man crankiness goes off the charts. Captain Owen Honors loses his job for making raunchy videos, and Jimmy Wales imagines what people will think of Wikipedia in 500 years."
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="John McCain gets cranky, and Jimmy Wales imagines Wikipedia's relevance in 500 years."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:759f9392-6bd5-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:75b521d0-6bd5-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:cb33d79c-f082-102d-8eff-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:751d0c1a-6bd5-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:753f1512-6bd5-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:7567e820-6bd5-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:7591e5c6-6bd5-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Wed Jan 05 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16003" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Fri Jan 07 07:40:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Thu Feb 03 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:b00f74fc-6ba3-102e-8d94-001cc4eaf2d4">
+                        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="b00f74fc-6ba3-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:b00f74fc-6ba3-102e-8d94-001cc4eaf2d4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="TDS_16004" visible="true"/>
+                        <field id="short-id" name="short-id" value="RDjWnThz" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="EN_US" visible="true"/>
+                        <field id="Title" name="Title" value="January 06, 2011 - Patton Oswalt" visible="true"/>
+                        <field id="ShortTitle" name="ShortTitle" value="January 06, 2011 - Patton Oswalt"
+                         visible="true"/>
+                        <field id="Description" name="Description"
+                         value="Republicans open the 112th Congressional session with the reading of the Constitution, and John Boehner cries again. Facebook refuses to disclose its financial results to the public, and Patton Oswalt uses prison labor to write &#34;Zombie Spaceship Wasteland.&#34;"
+                         visible="true"/>
+                        <field id="ShortDescription" name="ShortDescription"
+                         value="Facebook refuses to disclose its financial results, and Patton Oswalt uses a prisoner ghostwriter."
+                         visible="true"/>
+                        <field field-type="object" id="Series" name="Series" visible="true">
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+                        </field>
+                        <field field-type="object" id="Images" name="Images" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:afff5b44-6ba3-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:b00a01de-6ba3-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+                        <field field-type="object" id="Videos" name="Videos" visible="true">
+                            <collection>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:e9c66858-f205-102d-8eff-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:af828c40-6ba3-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:afa6ba70-6ba3-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:afc41174-6ba3-102e-8d94-001cc4eaf2d4"/>
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:aff05d74-6ba3-102e-8d94-001cc4eaf2d4"/>
+                            </collection>
+                        </field>
+                        <field id="OriginalAirDate" name="OriginalAirDate"
+                         value="Thu Jan 06 07:00:00 EST 2011"
+                         visible="true"/>
+                        <field id="EpisodeNumber" name="EpisodeNumber" value="16004" visible="true"/>
+                        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                               visible="true"/>
+                                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                                <field id="StartDate" name="StartDate" value="Fri Jan 07 01:44:00 EST 2011"
+                               visible="true"/>
+                                <field id="EndDate" name="EndDate" value="Fri Feb 04 23:55:00 EST 2011" visible="true"/>
+                            </object>
+                        </field>
+                    </object>
+                </collection>
+            </field>
+            <field id="langparam" name="langparam" value="en" visible="true"/>
+        </object>
+        <object content-uri="mgid:jcr:content:comedycentral-tve:980cf2c0-782e-4ae5-9d8c-18cbbb9c9024"
+              object-key="0">
+            <field id="content-type" name="content-type" value="Standard:GenericItemCollection"
+                visible="true"/>
+            <field id="uuid" name="uuid" value="980cf2c0-782e-4ae5-9d8c-18cbbb9c9024"
+                visible="true"/>
+            <field id="mgid" name="mgid"
+                value="mgid:jcr:content:comedycentral-tve:980cf2c0-782e-4ae5-9d8c-18cbbb9c9024"
+                visible="true"/>
+            <field id="url-key" name="url-key" value="big-lake" visible="true"/>
+            <field id="status" name="status" value="DEFAULT" visible="true"/>
+            <field id="Title" name="Title" value="Big Lake TEST - Full Episodes live on site"
+                visible="true"/>
+            <field id="langparam" name="langparam" value="en" visible="true"/>
+        </object>
+        <object content-uri="mgid:jcr:content:comedycentral-tve:b7661b70-8ec9-47e0-9c84-16cece114d59"
+              object-key="0">
+            <field id="content-type" name="content-type" value="Standard:GenericItemCollection"
+                visible="true"/>
+            <field id="uuid" name="uuid" value="b7661b70-8ec9-47e0-9c84-16cece114d59"
+                visible="true"/>
+            <field id="mgid" name="mgid"
+                value="mgid:jcr:content:comedycentral-tve:b7661b70-8ec9-47e0-9c84-16cece114d59"
+                visible="true"/>
+            <field id="url-key" name="url-key" value="promo_homepage" visible="true"/>
+            <field id="status" name="status" value="DEFAULT" visible="true"/>
+            <field id="Title" name="Title" value="Home Page Promo Item List" visible="true"/>
+            <field id="Items" name="Items" visible="true">
+                <collection>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:5dbceba5-7097-412a-a25c-35322d4ee184">
+                        <field id="content-type" name="content-type" value="Standard:ScheduledList"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="5dbceba5-7097-412a-a25c-35322d4ee184"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:5dbceba5-7097-412a-a25c-35322d4ee184"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="promoSchedule_south_park" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Title" name="Title" value="Home Page Promo Schedule - South Park"
+                         visible="true"/>
+                        <field id="Schedules" name="Schedules" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:ScheduledItem"
+                               visible="true"/>
+                                <field id="Title" name="Title" value="Home Page Promo - 8/2/10 - 9/1/10"
+                               visible="true"/>
+                                <field field-type="object" id="Policy" name="Policy" visible="true">
+                                    <object content-uri="mgid:jcr:content:comedycentral-tve:a6eaf8be-62e2-4424-a9e7-1290b94cc7a1"/>
+                                </field>
+                                <field field-type="object" id="Items" name="Items" visible="true">
+                                    <collection>
+                                        <object content-uri="mgid:jcr:content:comedycentral-tve:85bf4911-13c2-4980-af67-ee8b4ca54cbc"/>
+                                        <object content-uri="mgid:jcr:content:comedycentral-tve:9b5f5670-29f8-419c-adff-b872a7350975"/>
+                                    </collection>
+                                </field>
+                            </object>
+                        </field>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:9ccc0590-3e8a-43df-b9a7-28d0fdbbf62b">
+                        <field id="content-type" name="content-type" value="Standard:ScheduledList"
+                         visible="true"/>
+                        <field id="uuid" name="uuid" value="9ccc0590-3e8a-43df-b9a7-28d0fdbbf62b"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:9ccc0590-3e8a-43df-b9a7-28d0fdbbf62b"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="promoSchedule_daily_show" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Title" name="Title" value="Home Page Promo Schedule - The Daily Show"
+                         visible="true"/>
+                        <field id="Schedules" name="Schedules" visible="true">
+                            <object>
+                                <field id="content-type" name="content-type" value="Standard:ScheduledItem"
+                               visible="true"/>
+                                <field id="Title" name="Title" value="Home Page Promo - 8/2/10 - 9/1/10"
+                               visible="true"/>
+                                <field field-type="object" id="Policy" name="Policy" visible="true">
+                                    <object content-uri="mgid:jcr:content:comedycentral-tve:a6eaf8be-62e2-4424-a9e7-1290b94cc7a1"/>
+                                </field>
+                                <field field-type="object" id="Items" name="Items" visible="true">
+                                    <collection>
+                                        <object content-uri="mgid:jcr:content:comedycentral-tve:554aad6a-3f88-459d-b056-50b5ffc4021e"/>
+                                        <object content-uri="mgid:jcr:content:comedycentral-tve:320ff929-a500-4aeb-b6f7-44f3b2b49aee"/>
+                                    </collection>
+                                </field>
+                            </object>
+                        </field>
+                    </object>
+                </collection>
+            </field>
+            <field id="langparam" name="langparam" value="en" visible="true"/>
+        </object>
+        <object content-uri="mgid:jcr:content:comedycentral-tve:7fdf8ea3-4dbe-4437-8a92-59e191811c26"
+              object-key="0">
+            <field id="content-type" name="content-type" value="Standard:GenericItemCollection"
+                visible="true"/>
+            <field id="uuid" name="uuid" value="7fdf8ea3-4dbe-4437-8a92-59e191811c26"
+                visible="true"/>
+            <field id="mgid" name="mgid"
+                value="mgid:jcr:content:comedycentral-tve:7fdf8ea3-4dbe-4437-8a92-59e191811c26"
+                visible="true"/>
+            <field id="url-key" name="url-key" value="page-faq-list" visible="true"/>
+            <field id="status" name="status" value="DEFAULT" visible="true"/>
+            <field id="Title" name="Title" value="FAQ list" visible="true"/>
+            <field id="Items" name="Items" visible="true">
+                <collection>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:98cf62c0-626f-40a0-8a48-d438c50e2ec8">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="98cf62c0-626f-40a0-8a48-d438c50e2ec8"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:98cf62c0-626f-40a0-8a48-d438c50e2ec8"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="98cf62c0-626f-40a0-8a48-d438c50e2ec8"
+                         visible="true"/>
+                        <field id="short-id" name="short-id" value="pDf7Zhqx" visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 23" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="What systems are supported on ComedyCentral.com?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="&lt;table border=&#34;1&#34; width=&#34;506&#34; cellspacing=&#34;6&#34;&gt; &lt;tr&gt; &lt;td width=&#34;150&#34;&gt; &lt;b&gt;Windows&lt;b/&gt; &lt;/td&gt; &lt;td&gt; &lt;b&gt;Requirements&lt;b/&gt; &lt;/td&gt; &lt;/tr&gt;  &lt;tr&gt; &lt;td&gt; Internet Connection &lt;/td&gt; &lt;td&gt; Cable or DSL &lt;/td&gt; &lt;/tr&gt;  &lt;tr&gt; &lt;td&gt; Operating System &lt;/td&gt; &lt;td&gt; Windows Vista/XP/7, IE 7+, FireFox 3+ &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;   &lt;table border=&#34;1&#34; width=&#34;506&#34; cellspacing=&#34;6&#34;&gt; &lt;tr&gt; &lt;td width=&#34;150&#34;&gt; &lt;b&gt;Mac&lt;b/&gt; &lt;/td&gt; &lt;td&gt; &lt;b&gt;Requirements&lt;b/&gt; &lt;/td&gt; &lt;/tr&gt;  &lt;tr&gt; &lt;td&gt; Internet Connection &lt;/td&gt; &lt;td&gt; Cable or DSL &lt;/td&gt; &lt;/tr&gt;  &lt;tr&gt; &lt;td&gt; Operating System &lt;/td&gt; &lt;td&gt;  Mac 10.5, Chrome 5+, Safari 4+, FireFox 3+ &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt;"
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:a2d1eceb-bd97-442f-a0b3-df90a2021bc4">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="a2d1eceb-bd97-442f-a0b3-df90a2021bc4"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:a2d1eceb-bd97-442f-a0b3-df90a2021bc4"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="a2d1eceb-bd97-442f-a0b3-df90a2021bc4"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 22" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Who can I contact for additional assistance with this site?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Please contact TV provider if you are experiencing any other issues with this site."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:199e84df-70ca-4bb8-bf18-14b838c50c01">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="199e84df-70ca-4bb8-bf18-14b838c50c01"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:199e84df-70ca-4bb8-bf18-14b838c50c01"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="199e84df-70ca-4bb8-bf18-14b838c50c01"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 21" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="Can I watch this site on my other devices?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="This service is intended for desktop and laptop computers. It is currently not available on mobile devices."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:4768d409-d687-4bfe-9471-1b2f4c773811">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="4768d409-d687-4bfe-9471-1b2f4c773811"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:4768d409-d687-4bfe-9471-1b2f4c773811"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="4768d409-d687-4bfe-9471-1b2f4c773811"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 20" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Will I need to download and install anything onto my computer to watch Comedy Central?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="You may need to update your video players and their plug-ins to their most current versions. Please make sure you have updated and installed the &lt;a target=&#34;_blank&#34; href=&#34;http://www.adobe.com/software/flash/about&#34;&gt;latest version of Adobe Flash Player&lt;/a&gt;, if you are experiencing difficulties playing video."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:a349036c-1329-4bb6-9bea-674a513b9a72">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="a349036c-1329-4bb6-9bea-674a513b9a72"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:a349036c-1329-4bb6-9bea-674a513b9a72"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="a349036c-1329-4bb6-9bea-674a513b9a72"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 19" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="What is the feedback button?" visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="The feedback button can be found on the left side of every page. You can use it in order to provide useful feedback to us about your experience."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:2796a9b6-8b0f-40bf-9acc-a36e6569b819">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="2796a9b6-8b0f-40bf-9acc-a36e6569b819"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:2796a9b6-8b0f-40bf-9acc-a36e6569b819"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="2796a9b6-8b0f-40bf-9acc-a36e6569b819"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 18" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Why is my video player unable to playback video?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="First, make sure that you have an active account with your TV provider and that you are signed into this site. You will also need the &lt;a target=&#34;_blank&#34; href=&#34;http://www.adobe.com/software/flash/about&#34;&gt;latest version of Flash&lt;/a&gt;. If your trouble is with your Internet service not functioning properly, please check with your local Internet service provider. If you are still having problems, feel free to send us feedback via the feedback button on the left side of any page."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:70fb8182-cd6b-4e95-90c0-d249bee43349">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="70fb8182-cd6b-4e95-90c0-d249bee43349"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:70fb8182-cd6b-4e95-90c0-d249bee43349"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="70fb8182-cd6b-4e95-90c0-d249bee43349"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 17" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Will videos be available with Closed Captioning?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Yes, some videos will be available with CC, as indicated by the CC icon next to the episode."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:71228d47-e28a-41b3-b298-4a3e5784d1d6">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="71228d47-e28a-41b3-b298-4a3e5784d1d6"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:71228d47-e28a-41b3-b298-4a3e5784d1d6"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="71228d47-e28a-41b3-b298-4a3e5784d1d6"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 16" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="Will videos be available in HD?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Yes, some videos will be available in HD, as indicated by the HD icon next to the episode."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:40450d1e-373c-4927-9b87-8d85f1d7bdda">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="40450d1e-373c-4927-9b87-8d85f1d7bdda"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:40450d1e-373c-4927-9b87-8d85f1d7bdda"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="40450d1e-373c-4927-9b87-8d85f1d7bdda"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 15" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="What if I forgot my username and password?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="If you can’t remember your username and password, please contact your TV service provider."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:7ee028bc-23b8-4ca1-8529-4d5ddcfe7752">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="7ee028bc-23b8-4ca1-8529-4d5ddcfe7752"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:7ee028bc-23b8-4ca1-8529-4d5ddcfe7752"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="7ee028bc-23b8-4ca1-8529-4d5ddcfe7752"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 14" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="Why can’t my friends view this content?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="This site is intended for people who have valid accounts with their TV service provider. If your friends do not have access to this site, they should contact their TV service provider."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:3cec9ec1-8c86-40b1-b99f-51f392415208">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="3cec9ec1-8c86-40b1-b99f-51f392415208"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:3cec9ec1-8c86-40b1-b99f-51f392415208"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="3cec9ec1-8c86-40b1-b99f-51f392415208"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 13" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Can I share my account information with friends?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="We do not recommend sharing your personal information with others. Sharing your username and password with others, may put your account at risk."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:ad60e49b-bdf7-430d-b451-f32e00d169a6">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="ad60e49b-bdf7-430d-b451-f32e00d169a6"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:ad60e49b-bdf7-430d-b451-f32e00d169a6"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="ad60e49b-bdf7-430d-b451-f32e00d169a6"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 12" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="Do I have to create a new account?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="If you already have a username and password from your TV provider, you will not need to create a new account. If you have not previously registered an account with your TV provider, you will need to do so with a valid email address. Please contact your TV provider to learn more."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:4c66278b-de58-4598-abc2-c1d4d084d6a8">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="4c66278b-de58-4598-abc2-c1d4d084d6a8"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:4c66278b-de58-4598-abc2-c1d4d084d6a8"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="4c66278b-de58-4598-abc2-c1d4d084d6a8"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 11" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="How do I watch video programs once I’ve signed in?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Once you have signed into the site, you will be able to browse through the wide array of videos and select any video you wish to view. Your video will automatically begin once you’ve hit play on your selection."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:08ca4a04-d59b-49a6-b0e1-fef2ea91a90e">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="08ca4a04-d59b-49a6-b0e1-fef2ea91a90e"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:08ca4a04-d59b-49a6-b0e1-fef2ea91a90e"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="08ca4a04-d59b-49a6-b0e1-fef2ea91a90e"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 10" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="How do I sign out?" visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Just click on the “Sign Out” button at the top of any page."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:bcd50640-d648-42b4-a046-fe441e9e8d6a">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="bcd50640-d648-42b4-a046-fe441e9e8d6a"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:bcd50640-d648-42b4-a046-fe441e9e8d6a"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="bcd50640-d648-42b4-a046-fe441e9e8d6a"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 9" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="How do I sign into this site?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Click on any video in order to start the sign in process or click “Sign In” at the upper right hand corner of the homepage. You will then select your TV service provider and be redirected to their site to provide your information. Afterwards, you will be redirected back to our site to watch your video."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:9a590e8b-3599-4df3-ae64-b6427a0eca25">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="9a590e8b-3599-4df3-ae64-b6427a0eca25"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:9a590e8b-3599-4df3-ae64-b6427a0eca25"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="9a590e8b-3599-4df3-ae64-b6427a0eca25"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 8" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Why is the episode I want to watch no longer available?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Our content is constantly being refreshed. We do our best to keep content available for as long as possible."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:3d23d19c-1bc0-4039-966a-58f8567dd085">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="3d23d19c-1bc0-4039-966a-58f8567dd085"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:3d23d19c-1bc0-4039-966a-58f8567dd085"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="3d23d19c-1bc0-4039-966a-58f8567dd085"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 7" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Is there more Comedy Central content available somewhere else?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Yes. Check out &lt;a target=&#34;_blank&#34; href=&#34;http://www.comedycentral.com&#34;&gt;ComedyCentral.com&lt;/a&gt; for additional shows, news, clips, photographs and more."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:6a7039a6-8b2a-4aaa-92a3-77211ba772d5">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="6a7039a6-8b2a-4aaa-92a3-77211ba772d5"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:6a7039a6-8b2a-4aaa-92a3-77211ba772d5"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="6a7039a6-8b2a-4aaa-92a3-77211ba772d5"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 6" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Why do I have to sign-in in order to view content?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="In order to verify that you have an active subscription with your TV provider, we must ask that you validate your account. After you have successfully signed in, you can gain access to all of the content on this site."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:9e82c898-6bf4-4153-89a6-69a0169efc00">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="9e82c898-6bf4-4153-89a6-69a0169efc00"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:9e82c898-6bf4-4153-89a6-69a0169efc00"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="9e82c898-6bf4-4153-89a6-69a0169efc00"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 5" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="How much does this site cost?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="This is a free site. It’s an added value to your regular TV subscription."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:f2cfafab-bf4e-43aa-8a79-a64cad246a2a">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="f2cfafab-bf4e-43aa-8a79-a64cad246a2a"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:f2cfafab-bf4e-43aa-8a79-a64cad246a2a"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="f2cfafab-bf4e-43aa-8a79-a64cad246a2a"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 4" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="What if my TV provider is not listed?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Please contact your TV provider to ask about participating in this program."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:11b5f1a8-650c-482a-a293-4b8143477e3c">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="11b5f1a8-650c-482a-a293-4b8143477e3c"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:11b5f1a8-650c-482a-a293-4b8143477e3c"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="11b5f1a8-650c-482a-a293-4b8143477e3c"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 3" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="Can I watch the Comedy Central Beta outside the U.S.?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="No. At this time, access to the Comedy Central Beta is limited to customers within the United States."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:6ace40c5-07f9-439a-aebc-6a4dbe719839">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="6ace40c5-07f9-439a-aebc-6a4dbe719839"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:6ace40c5-07f9-439a-aebc-6a4dbe719839"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="6ace40c5-07f9-439a-aebc-6a4dbe719839"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ 2" visible="true"/>
+                        <field id="Subhead" name="Subhead"
+                         value="How does this site relate to ComedyCentral.com?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="Both sites are free and offer Comedy Central content. This site may offer some content that is not available on &lt;a target=&#34;_blank&#34; href=&#34;http://www.comedycentral.com&#34;&gt;ComedyCentral.com&lt;/a&gt;."
+                         visible="true"/>
+                    </object>
+                    <object content-uri="mgid:jcr:content:comedycentral-tve:45945fb2-2441-4951-a9fc-6cf69b996bd0">
+                        <field id="content-type" name="content-type" value="Standard:Article" visible="true"/>
+                        <field id="uuid" name="uuid" value="45945fb2-2441-4951-a9fc-6cf69b996bd0"
+                         visible="true"/>
+                        <field id="mgid" name="mgid"
+                         value="mgid:jcr:content:comedycentral-tve:45945fb2-2441-4951-a9fc-6cf69b996bd0"
+                         visible="true"/>
+                        <field id="url-key" name="url-key" value="45945fb2-2441-4951-a9fc-6cf69b996bd0"
+                         visible="true"/>
+                        <field id="status" name="status" value="DEFAULT" visible="true"/>
+                        <field id="Language" name="Language" value="en" visible="true"/>
+                        <field id="Title" name="Title" value="FAQ1" visible="true"/>
+                        <field id="Subhead" name="Subhead" value="What is this Comedy Central site?"
+                         visible="true"/>
+                        <field id="TextBody" name="TextBody"
+                         value="You can sign into this site to gain access to a variety of free Comedy Central shows if you’ve already been identified as a participant in this program. This site is participating with a variety of different TV providers, so if your TV provider is not listed, or if you’d like to become a participant in this program, please contact them."
+                         visible="true"/>
+                    </object>
+                </collection>
+            </field>
+            <field id="langparam" name="langparam" value="en" visible="true"/>
+        </object>
+        
+        
+        
+        
+    </collection>
+
+</xcql>
+<!-- Date Generated: Tue Feb 01 08:44:00 EST 2011 -->

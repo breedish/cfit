@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- COMMENT!!! ANOTHER LINE!!! -->
+	<child a="a" b="b"/>
+	<child c="c" d="d"/>
+</root>
+<!-- COMMENT!!! ANOTHER LINE!!!	-->

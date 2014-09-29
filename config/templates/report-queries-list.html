@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CFIT Report ${model.name} ${model.header}</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/tablesorter/2.0.5b/jquery.tablesorter.min.js"></script>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<style>
+    .navbar .navbar-brand {
+        float: left;
+        display: block;
+        margin-left: -20px;
+        font-size: 20px;
+        font-weight: 200;
+        color: #777777;
+        text-shadow: 0 1px 0 #ffffff;
+    }
+
+    .navbar {
+        border: 1px solid #d4d4d4;
+        -webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
+        -moz-box-shadow: 0 0 20px rgba(0,0,0,.1);
+        box-shadow: 0 0 20px rgba(0,0,0,.1);
+    }
+
+    .report {
+        padding: 60px 50px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    * {
+        font-family: Open Sans;
+        padding: 0;
+    }
+
+    .condensed-text {
+        font-size: 8pt;
+    }
+
+    .response-data {
+        width:95%;
+        min-height:50px;
+    }
+
+    .clear-padding {
+        padding: 0;
+    }
+
+    .table thead {
+        background-image: linear-gradient(to bottom,#fff 0,#f0f0f0 100%);
+    }
+
+    .table {
+        border: 1px thin #AAA
+    }
+
+    table th {
+        text-align: center;
+    }
+
+</style>
+
+<div class="row">
+    <div class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header col-md-9">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">${model.name} ${model.header}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="report">
+
+    <div class="col-md-12" id="list">
+        <section>
+            <#if (model.queryResponseList?? && (model.queryResponseList?size>0)) >
+                <table class="condensed-text table table-condensed table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th><h5>#</h5></th>
+                        <th><h5>Query</h5></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <#list model.queryResponseList as query>
+                        <tr>
+                            <td>${query_index+1}</td>
+                            <td><a href="${query.url}">${truncate(query.url)}</a></td>
+                        </tr>
+                    </#list>
+                    </tbody>
+                </table>
+            </#if>
+        </section>
+    </div>
+
+</section>
+
+</body>
+
+<#function truncate url>
+    <#if url?length &lt; 200>
+        <#return url>
+            <#else>
+                <#return url?substring(0,200) + "...">
+    </#if>
+</#function>

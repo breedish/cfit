@@ -1,0 +1,3 @@
+include 'original', 'rc'
+
+rootProject.name = 'cfit'

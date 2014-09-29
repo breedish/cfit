@@ -1,0 +1,30 @@
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+rootProject.dependencies {
+    runtime project(path)
+}
+
+allprojects {
+    repositories {
+        if (!project.hasProperty('maven.repo.remote.only')) {
+            mavenLocal()
+        }
+        maven {
+            url "http://buildtools.mtvitech.com/nexus/content/groups/public"
+            credentials {
+                username mtvnproximityUser
+                password mtvnproximityPassword
+            }
+        }
+        mavenCentral()
+    }
+}
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+
+    compile project(':cfit-tool')
+}

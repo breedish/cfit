@@ -1,0 +1,32 @@
+#Exclusion for comparison phase
+exclusions:
+- alias: Remove xml related declarations
+  type: regexp
+  values: ['xmlns\:.+?[ ]', 'version=.+?[ ]']
+- alias: Remove xml comments
+  type: regexp
+  values: ['<!--.*?-->']
+- alias: Remove media content differences
+  type: regexp
+  values: ['cdn=".+?"', '<src>.+?</src>']
+- alias: Remove status field
+  type: regexp
+  values: ['<field[ ]id="status".+?\>']
+- alias: Remove space characters
+  type: regexp
+  values: ['[ \t]+']
+- alias: Remove executionTime from json path
+  type: regexp
+  values: ['"executionTime"(.*?),','"executionTime"(.*?)']
+- alias: Exclude log warning
+  type: regexp
+  values: ['"log":\[(.*?)\]']
+- alias: Exclude CMRs from response
+  type: json
+  values: ['response::docs::CMRs','*CMRs']
+- alias: Exclude lm data and date updated from response
+  type: json
+  values: ['*mtvi:updated','*mtvi:lastModified']
+- alias: Remove fields from json path response
+  type: json
+  values: ['metadata', 'summary::scheduleTTL','summary::started','summary::executionTime','summary::params::timeTravel','summary::params::__crabappleFeedCacheBust','summary::plugin.timeTravel','summary::params::plugin.timeTravel', 'summary::params::akamaiClear']

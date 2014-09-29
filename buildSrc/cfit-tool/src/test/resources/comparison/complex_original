@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xcql>
+	<object content-uri="mgid:jcr:content:spike:?query(&quot;mtvi:contentType='Standard:Video' or mtvi:contentType='Standard:ShowVideo' or mtvi:contentType='Standard:MusicVideo' or mtvi:contentType='Standard:UGCVideo'&quot;,@size=1)" is-nil="true" object-key="0">
+		<object content-uri="mgid:jcr:content:spike:null" is-nil="true" object-key="1">
+			<field id="mgid" is-nil="true" name="mgid" value="null" visible="true"/>
+			<field id="content-type" is-nil="true" name="content-type" value="null" visible="true"/>
+			<field id="Title" is-nil="true" name="Title" value="null" visible="true"/>
+			<field id="Description" is-nil="true" name="Description" value="null" visible="true"/>
+			<field id="OriginalAirDate" is-nil="true" name="OriginalAirDate" value="null" visible="true"/>
+			<field id="OriginalPublishDate" is-nil="true" name="OriginalPublishDate" value="null" visible="true"/>
+			<field id="VideoDuration" is-nil="true" name="VideoDuration" value="null" visible="true"/>
+			<field id="Tags" name="Tags" visible="true">
+				<object>
+					<field id="TagText" is-nil="true" name="TagText" value="null" visible="true"/>
+				</object>
+			</field>
+			<field id="Pigeonholes" name="Pigeonholes" visible="true">
+				<object>
+					<field id="PigeonholeName" is-nil="true" name="PigeonholeName" value="null" visible="true"/>
+				</object>
+			</field>
+			<field id="Keywords" name="Keywords" visible="true">
+				<object>
+					<field id="Keyword" is-nil="true" name="Keyword" value="null" visible="true"/>
+				</object>
+			</field>
+			<field id="People" name="People" visible="true">
+				<object>
+					<field id="mgid" is-nil="true" name="mgid" value="null" visible="true"/>
+					<field id="Name" is-nil="true" name="Name" value="null" visible="true"/>
+				</object>
+			</field>
+		</object>
+		<field id="set" name="set" visible="true">
+			<object>
+				<field id="xxx" is-nil="true" name="xxx" value="null" visible="true"/>
+			</object>
+		</field>
+	</object>
+</xcql>

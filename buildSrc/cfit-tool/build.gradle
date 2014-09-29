@@ -1,0 +1,34 @@
+project(':cfit-tool') {
+    sourceCompatibility = 1.6
+    targetCompatibility = 1.6
+    apply plugin: 'java'
+    apply plugin: 'maven'
+    apply plugin: 'idea'
+
+    group = 'com.mtvi.cfit'
+    version = '2.0-SNAPSHOT'
+
+    description = """CFIT Tool"""
+
+    dependencies {
+        compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.3'
+        compile group: 'org.slf4j', name: 'slf4j-log4j12', version:'1.7.3'
+
+        compile group: 'org.codehaus.jackson', name: 'jackson-core-asl', version:'1.7.6'
+        compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version:'1.7.6'
+
+        compile group: 'org.apache.commons', name: 'com.springsource.org.apache.commons.io', version:'1.4.0'
+        compile group: 'org.apache.commons', name: 'com.springsource.org.apache.commons.collections', version:'3.2.1'
+        compile group: 'org.apache.httpcomponents', name: 'httpclient', version:'4.3'
+        compile group: 'commons-lang', name: 'commons-lang', version:'2.4'
+
+        compile group: 'com.google.guava', name: 'guava', version:'15.0'
+        compile group: 'org.freemarker', name: 'freemarker', version:'2.3.18'
+        compile group: 'org.yaml', name: 'snakeyaml', version:'1.10'
+
+        compile group: 'org.mockito', name: 'mockito-all', version:'1.9.5'
+        compile group: 'xmlunit', name: 'xmlunit', version:'1.5'
+        compile group: 'junit', name: 'junit', version:'4.5'
+        testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.2.0-beta-2'
+    }
+}

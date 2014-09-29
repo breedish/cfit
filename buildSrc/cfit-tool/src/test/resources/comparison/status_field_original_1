@@ -1,0 +1,576 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+<xcql>
+    <object content-uri="mgid:jcr:content:comedycentral-tve:4b0a24e0-7124-102e-b545-001cc4eaf2d4"
+           object-key="0">
+        <field id="content-type" name="content-type" value="Standard:FullEpisode"
+             visible="true"/>
+        <field id="uuid" name="uuid" value="4b0a24e0-7124-102e-b545-001cc4eaf2d4"
+             visible="true"/>
+        <field id="mgid" name="mgid"
+             value="mgid:jcr:content:comedycentral-tve:4b0a24e0-7124-102e-b545-001cc4eaf2d4"
+             visible="true"/>
+        <field id="url-key" name="url-key" value="TDS_16008" visible="true"/>
+        <field id="short-id" name="short-id" value="eDoPa8wq" visible="true"/>
+        <field id="Language" name="Language" value="EN_US" visible="true"/>
+        <field id="Title" name="Title" value="January 13, 2011 - Ron Howard" visible="true"/>
+        <field id="ShortTitle" name="ShortTitle" value="January 13, 2011 - Ron Howard"
+             visible="true"/>
+        <field id="Description" name="Description"
+             value="The crowd ruins the Tucson memorial service, John Hodgman makes NASCAR more exciting, and Ron Howard shares his enthusiasm for show business."
+             visible="true"/>
+        <field id="ShortDescription" name="ShortDescription"
+             value="John Hodgman makes NASCAR more exciting, and Ron Howard shares his enthusiasm for show business."
+             visible="true"/>
+        <field field-type="object" id="Series" name="Series" visible="true">
+            <object content-uri="mgid:jcr:content:comedycentral-tve:3522f2ae-ed5f-102d-8eff-001cc4eaf2d4"/>
+        </field>
+        <field id="Images" name="Images" visible="true">
+            <collection>
+                <object content-uri="mgid:jcr:content:comedycentral-tve:4b031164-7124-102e-b545-001cc4eaf2d4">
+                    <field id="content-type" name="content-type" value="Standard:Image" visible="true"/>
+                    <field id="uuid" name="uuid" value="4b031164-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="mgid" name="mgid"
+                      value="mgid:jcr:content:comedycentral-tve:4b031164-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="url-key" name="url-key" value="image_629768" visible="true"/>
+                    <field id="short-id" name="short-id" value="dDNPt8wq" visible="true"/>
+                    <field id="Language" name="Language" value="EN_US" visible="true"/>
+                    <field id="Title" name="Title" value="TDS-01132011-EpsPromo" visible="true"/>
+                    <field id="ImageAssetRefs" name="ImageAssetRefs" visible="true">
+                        <object content-uri="mgid:jcr:content:comedycentral-tve:4ae761c6-7124-102e-b545-001cc4eaf2d4">
+                            <field id="content-type" name="content-type" value="Standard:ImageAssetRef"
+                            visible="true"/>
+                            <field id="uuid" name="uuid" value="4ae761c6-7124-102e-b545-001cc4eaf2d4"
+                            visible="true"/>
+                            <field id="mgid" name="mgid"
+                            value="mgid:jcr:content:comedycentral-tve:4ae761c6-7124-102e-b545-001cc4eaf2d4"
+                            visible="true"/>
+                            <field id="url-key" name="url-key" value="imageaseet_629768" visible="true"/>
+                            <field id="short-id" name="short-id" value="EDMPc8wq" visible="true"/>
+                            <field id="URI" name="URI"
+                            value="mgid:file:gsp:entertainment-assets:/cc/images/shows/tds/videos/season_16/16008/ds_16008_01_16x9.jpg"
+                            visible="true"/>
+                            <field id="Format" name="Format" value="jpg" visible="true"/>
+                            <field id="ImageTag" name="ImageTag" visible="true">
+                                <object content-uri="mgid:jcr:content:comedycentral-tve:c8a88422-5974-4c76-bd3d-a83c4960aa67">
+                                    <field id="content-type" name="content-type" value="Standard:ImageTypeTag"
+                                  visible="true"/>
+                                    <field id="uuid" name="uuid" value="c8a88422-5974-4c76-bd3d-a83c4960aa67"
+                                  visible="true"/>
+                                    <field id="mgid" name="mgid"
+                                  value="mgid:jcr:content:comedycentral-tve:c8a88422-5974-4c76-bd3d-a83c4960aa67"
+                                  visible="true"/>
+                                    <field id="url-key" name="url-key" value="c8a88422-5974-4c76-bd3d-a83c4960aa67"
+                                  visible="true"/>
+                                    <field id="TagText" name="TagText" value="Episode Promo" visible="true"/>
+                                    <field id="Description" name="Description"
+                                  value="Large promo image on homepage (740x435) and series image on series page (960x540)"
+                                  visible="true"/>
+                                </object>
+                            </field>
+                            <field id="Width" name="Width" value="1920" visible="true"/>
+                            <field id="Height" name="Height" value="1080" visible="true"/>
+                        </object>
+                    </field>
+                </object>
+                <object content-uri="mgid:jcr:content:comedycentral-tve:4ae12446-7124-102e-b545-001cc4eaf2d4">
+                    <field id="content-type" name="content-type" value="Standard:Image" visible="true"/>
+                    <field id="uuid" name="uuid" value="4ae12446-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="mgid" name="mgid"
+                      value="mgid:jcr:content:comedycentral-tve:4ae12446-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="url-key" name="url-key" value="image_629767" visible="true"/>
+                    <field id="short-id" name="short-id" value="UDYPt8wq" visible="true"/>
+                    <field id="Language" name="Language" value="EN_US" visible="true"/>
+                    <field id="Title" name="Title" value="Image_629767" visible="true"/>
+                    <field id="ImageAssetRefs" name="ImageAssetRefs" visible="true">
+                        <object content-uri="mgid:jcr:content:comedycentral-tve:4ada001c-7124-102e-b545-001cc4eaf2d4">
+                            <field id="content-type" name="content-type" value="Standard:ImageAssetRef"
+                            visible="true"/>
+                            <field id="uuid" name="uuid" value="4ada001c-7124-102e-b545-001cc4eaf2d4"
+                            visible="true"/>
+                            <field id="mgid" name="mgid"
+                            value="mgid:jcr:content:comedycentral-tve:4ada001c-7124-102e-b545-001cc4eaf2d4"
+                            visible="true"/>
+                            <field id="url-key" name="url-key" value="imageaseet_629767" visible="true"/>
+                            <field id="short-id" name="short-id" value="uDZPc8wq" visible="true"/>
+                            <field id="URI" name="URI"
+                            value="mgid:file:gsp:entertainment-assets:/cc/images/shows/tds/videos/season_16/16008/ds_16008_01_v6.jpg"
+                            visible="true"/>
+                            <field id="Format" name="Format" value="jpg" visible="true"/>
+                            <field id="Width" name="Width" value="480" visible="true"/>
+                            <field id="Height" name="Height" value="360" visible="true"/>
+                        </object>
+                    </field>
+                </object>
+            </collection>
+        </field>
+        <field id="Duration" name="Duration" value="0:00" visible="true"/>
+        <field id="Videos" name="Videos" visible="true">
+            <collection>
+                <object content-uri="mgid:jcr:content:comedycentral-tve:4a240f8c-7124-102e-b545-001cc4eaf2d4">
+                    <field id="content-type" name="content-type" value="Standard:Video" visible="true"/>
+                    <field id="uuid" name="uuid" value="4a240f8c-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="mgid" name="mgid"
+                      value="mgid:jcr:content:comedycentral-tve:4a240f8c-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="url-key" name="url-key" value="daily_show_16008_act_1_011311"
+                      visible="true"/>
+                    <field id="short-id" name="short-id" value="dDXP58Qq" visible="true"/>
+                    <field id="Language" name="Language" value="EN_US" visible="true"/>
+                    <field id="Title" name="Title" value="Daily Show: 16008 Act 1 011311" visible="true"/>
+                    <field id="ShortTitle" name="ShortTitle" value="Daily Show: 16008 Act 1 011311"
+                      visible="true"/>
+                    <field id="VideoAssetRefs" name="VideoAssetRefs" visible="true">
+                        <collection>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:49f08ee6-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="49f08ee6-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:49f08ee6-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629657" visible="true"/>
+                                <field id="short-id" name="short-id" value="rDuPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act1_512x288_450.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="450" visible="true"/>
+                                <field id="Width" name="Width" value="512" visible="true"/>
+                                <field id="Height" name="Height" value="288" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a026800-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a026800-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a026800-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629658" visible="true"/>
+                                <field id="short-id" name="short-id" value="TDFPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act1_768x432_640.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="640" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a07987a-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a07987a-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a07987a-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629659" visible="true"/>
+                                <field id="short-id" name="short-id" value="8D6Pj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act1_768x432_960.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="960" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a12ae2c-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a12ae2c-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a12ae2c-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629660" visible="true"/>
+                                <field id="short-id" name="short-id" value="iDiPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act1_768x432_1300.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1300" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a1c3532-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a1c3532-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a1c3532-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629661" visible="true"/>
+                                <field id="short-id" name="short-id" value="yDxPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act1_768x432_1720.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1720" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                        </collection>
+                    </field>
+                </object>
+                <object content-uri="mgid:jcr:content:comedycentral-tve:4a51107c-7124-102e-b545-001cc4eaf2d4">
+                    <field id="content-type" name="content-type" value="Standard:Video" visible="true"/>
+                    <field id="uuid" name="uuid" value="4a51107c-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="mgid" name="mgid"
+                      value="mgid:jcr:content:comedycentral-tve:4a51107c-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="url-key" name="url-key" value="daily_show_16008_act_2_011311"
+                      visible="true"/>
+                    <field id="short-id" name="short-id" value="HDvP58Qq" visible="true"/>
+                    <field id="Language" name="Language" value="EN_US" visible="true"/>
+                    <field id="Title" name="Title" value="Daily Show: 16008 Act 2 011311" visible="true"/>
+                    <field id="ShortTitle" name="ShortTitle" value="Daily Show: 16008 Act 2 011311"
+                      visible="true"/>
+                    <field id="VideoAssetRefs" name="VideoAssetRefs" visible="true">
+                        <collection>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a29263e-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a29263e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a29263e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629662" visible="true"/>
+                                <field id="short-id" name="short-id" value="LDnPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act2_512x288_450.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="450" visible="true"/>
+                                <field id="Width" name="Width" value="512" visible="true"/>
+                                <field id="Height" name="Height" value="288" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a3544dc-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a3544dc-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a3544dc-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629663" visible="true"/>
+                                <field id="short-id" name="short-id" value="ADfPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act2_768x432_640.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="640" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a3bae8a-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a3bae8a-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a3bae8a-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629664" visible="true"/>
+                                <field id="short-id" name="short-id" value="UDQPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act2_768x432_960.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="960" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a40ace6-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a40ace6-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a40ace6-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629665" visible="true"/>
+                                <field id="short-id" name="short-id" value="dDvPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act2_768x432_1300.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1300" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a45c398-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a45c398-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a45c398-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629666" visible="true"/>
+                                <field id="short-id" name="short-id" value="xD8Pj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act2_768x432_1720.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1720" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                        </collection>
+                    </field>
+                </object>
+                <object content-uri="mgid:jcr:content:comedycentral-tve:4aab0f14-7124-102e-b545-001cc4eaf2d4">
+                    <field id="content-type" name="content-type" value="Standard:Video" visible="true"/>
+                    <field id="uuid" name="uuid" value="4aab0f14-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="mgid" name="mgid"
+                      value="mgid:jcr:content:comedycentral-tve:4aab0f14-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="url-key" name="url-key" value="daily_show_16008_act_3_011311"
+                      visible="true"/>
+                    <field id="short-id" name="short-id" value="xDGP58Qq" visible="true"/>
+                    <field id="Language" name="Language" value="EN_US" visible="true"/>
+                    <field id="Title" name="Title" value="Daily Show: 16008 Act 3 011311" visible="true"/>
+                    <field id="ShortTitle" name="ShortTitle" value="Daily Show: 16008 Act 3 011311"
+                      visible="true"/>
+                    <field id="VideoAssetRefs" name="VideoAssetRefs" visible="true">
+                        <collection>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a76950e-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a76950e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a76950e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629667" visible="true"/>
+                                <field id="short-id" name="short-id" value="mDHPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act3_512x288_450.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="450" visible="true"/>
+                                <field id="Width" name="Width" value="512" visible="true"/>
+                                <field id="Height" name="Height" value="288" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a850a30-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a850a30-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a850a30-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629668" visible="true"/>
+                                <field id="short-id" name="short-id" value="3DwPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act3_768x432_640.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="640" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a90b93e-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a90b93e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a90b93e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629669" visible="true"/>
+                                <field id="short-id" name="short-id" value="pDWPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act3_768x432_960.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="960" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a96886e-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a96886e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a96886e-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629670" visible="true"/>
+                                <field id="short-id" name="short-id" value="VDgPj8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act3_768x432_1300.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1300" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4a9dd056-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4a9dd056-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4a9dd056-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629671" visible="true"/>
+                                <field id="short-id" name="short-id" value="eD2Pr8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act3_768x432_1720.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1720" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                        </collection>
+                    </field>
+                </object>
+                <object content-uri="mgid:jcr:content:comedycentral-tve:4acf89b6-7124-102e-b545-001cc4eaf2d4">
+                    <field id="content-type" name="content-type" value="Standard:Video" visible="true"/>
+                    <field id="uuid" name="uuid" value="4acf89b6-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="mgid" name="mgid"
+                      value="mgid:jcr:content:comedycentral-tve:4acf89b6-7124-102e-b545-001cc4eaf2d4"
+                      visible="true"/>
+                    <field id="url-key" name="url-key" value="daily_show_16008_act_4_011311"
+                      visible="true"/>
+                    <field id="short-id" name="short-id" value="mDAP58Qq" visible="true"/>
+                    <field id="Language" name="Language" value="EN_US" visible="true"/>
+                    <field id="Title" name="Title" value="Daily Show: 16008 Act 4 011311" visible="true"/>
+                    <field id="ShortTitle" name="ShortTitle" value="Daily Show: 16008 Act 4 011311"
+                      visible="true"/>
+                    <field id="VideoAssetRefs" name="VideoAssetRefs" visible="true">
+                        <collection>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4ab197a8-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4ab197a8-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4ab197a8-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629672" visible="true"/>
+                                <field id="short-id" name="short-id" value="cDkPr8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act4_512x288_450.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="450" visible="true"/>
+                                <field id="Width" name="Width" value="512" visible="true"/>
+                                <field id="Height" name="Height" value="288" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4ab71ad4-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4ab71ad4-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4ab71ad4-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629673" visible="true"/>
+                                <field id="short-id" name="short-id" value="wDsPr8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act4_768x432_640.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="640" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4ac014e0-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4ac014e0-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4ac014e0-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629674" visible="true"/>
+                                <field id="short-id" name="short-id" value="nDTPr8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act4_768x432_960.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="960" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4ac6542c-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4ac6542c-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4ac6542c-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629675" visible="true"/>
+                                <field id="short-id" name="short-id" value="5DdPr8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act4_768x432_1300.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1300" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                            <object content-uri="mgid:jcr:content:comedycentral-tve:4acb2862-7124-102e-b545-001cc4eaf2d4">
+                                <field id="content-type" name="content-type" value="Standard:VideoAssetRef"
+                               visible="true"/>
+                                <field id="uuid" name="uuid" value="4acb2862-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="mgid" name="mgid"
+                               value="mgid:jcr:content:comedycentral-tve:4acb2862-7124-102e-b545-001cc4eaf2d4"
+                               visible="true"/>
+                                <field id="url-key" name="url-key" value="videoassetref_629676" visible="true"/>
+                                <field id="short-id" name="short-id" value="KDcPr8wq" visible="true"/>
+                                <field id="URI" name="URI"
+                               value="mgid:file:gsp:comedystor:/com/dailyshow/TDS/season_16/episode_008/ds_16008_act4_768x432_1720.mp4"
+                               visible="true"/>
+                                <field id="Format" name="Format" value="mp4_h264_main" visible="true"/>
+                                <field id="BitRate" name="BitRate" value="1720" visible="true"/>
+                                <field id="Width" name="Width" value="768" visible="true"/>
+                                <field id="Height" name="Height" value="432" visible="true"/>
+                            </object>
+                        </collection>
+                    </field>
+                </object>
+            </collection>
+        </field>
+        <field id="OriginalAirDate" name="OriginalAirDate"
+             value="Thu Jan 13 07:00:00 EST 2011"
+             visible="true"/>
+        <field id="EpisodeNumber" name="EpisodeNumber" value="16008" visible="true"/>
+        <field id="ExpirationDate" name="ExpirationDate" visible="true">
+            <object>
+                <field id="content-type" name="content-type" value="Standard:TimeViewPolicy"
+                   visible="true"/>
+                <field id="Name" name="Name" value="TimeViewPolicy" visible="true"/>
+                <field id="StartDate" name="StartDate" value="Fri Jan 14 01:42:00 EST 2011"
+                   visible="true"/>
+                <field id="EndDate" name="EndDate" value="Fri Feb 11 23:55:00 EST 2011" visible="true"/>
+            </object>
+        </field>
+        <field id="langparam" name="langparam" value="en" visible="true"/>
+    </object>
+    
+
+</xcql>
+<!-- Date: Tue Feb 01 03:58:00 EST 2011 -->
+
+<!-- http://lite.dextr-q.mtvi.com/feeds/lite/udatq/ac/08/dd/43/bd8a/4cbe/a613238e/55ec3b0a/lite.xml -->
+
+
+
+
